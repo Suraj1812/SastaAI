@@ -162,7 +162,6 @@ body { background: var(--paper); color: var(--ink); }
 .has-conversation { padding-top: 24px; }
 .conversation { display: flex; flex-direction: column; gap: 36px; }
 .conversation-turn { min-width: 0; scroll-margin-top: 24px; }
-.conversation-turn:last-child { min-height: calc(100svh - 166px); }
 .user-question { width: fit-content; max-width: min(720px, 100%); margin-left: auto; border: 1px solid #e5ddf8; border-radius: 18px 18px 5px 18px; background: #f0eaff; padding: 14px 20px; }
 .question-label { display: block; margin-bottom: 5px; color: #7c669f; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
 .user-question h2 { margin: 0; color: var(--ink); font-size: clamp(16px, 2vw, 20px); font-weight: 600; line-height: 1.45; overflow-wrap: anywhere; }

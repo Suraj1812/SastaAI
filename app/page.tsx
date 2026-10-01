@@ -48,7 +48,7 @@ function AnswerText({ data }: { data: SearchResponse }) {
     return () => window.clearInterval(interval);
   }, [data.answer]);
 
-  return <div className="answer-text" aria-label={data.answer}>{visibleAnswer.split(/(\[\d+\])/g).map((part, index) => {
+  return <div className="answer-text">{visibleAnswer.split(/(\[\d+\])/g).map((part, index) => {
     const reference = /^\[(\d+)\]$/.exec(part);
     const source = reference ? data.results[Number(reference[1]) - 1] : undefined;
     return source ? <a className="answer-citation" href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`Source ${reference![1]}: ${source.title}`} key={index}>{part}</a> : <span key={index}>{part}</span>;

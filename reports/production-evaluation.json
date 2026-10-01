@@ -1,72 +1,11 @@
 {
-  "generated_at": "2026-10-01T11:03:16.044Z",
+  "generated_at": "2026-10-01T11:07:42.197Z",
   "engine": "https://sasta-ai.surajsinghrajput1812.workers.dev/api/search",
   "model_generated": false,
   "scope": "40 real local questions; schema, topic continuity, citation bounds, source/image provenance and evidence markers. This is not proof of perfect factual correctness.",
   "passed": 40,
   "total": 40,
   "cases": [
-    {
-      "id": "earth-definition",
-      "query": "What is Earth?",
-      "pass": true,
-      "response": {
-        "query": "What is Earth?",
-        "answer": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. [1]\n\nThis is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. [1]\n\nAlmost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. [1]",
-        "results": [
-          {
-            "title": "Earth",
-            "url": "https://en.wikipedia.org/wiki/Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.",
-            "verified": true
-          },
-          {
-            "title": "In the Earth",
-            "url": "https://en.wikipedia.org/wiki/In_the_Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "In the Earth is a 2021 science fiction psychological horror film written and directed by Ben Wheatley. The film stars Joel Fry, Reece Shearsmith, Hayley Squires, Ellora Torchia, John Hollingworth, and Mark Monero.",
-            "verified": true
-          },
-          {
-            "title": "Google Earth",
-            "url": "https://en.wikipedia.org/wiki/Google_Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "Google Earth is a web and computer program created by Google that renders a 3D representation of Earth based primarily on satellite imagery. The program maps the Earth by superimposing satellite images, aerial photography, and GIS data onto a 3D globe, allowing users to see cities and landscapes from various angles. Users can explore the globe by entering addresses and coordinates, or by using a keyboard or mouse. The program can also be downloaded on a smartphone or tablet, using a touch screen or stylus to navigate. Users may use the program to add their own data using Keyhole Markup Language and upload them through various sources, such as forums or blogs. Google Earth is able to show various kinds of images overlaid on the surface of the Earth and is also a Web Map Service client. In 2019, Google revealed that Google Earth covers more than 97 percent of the world.",
-            "verified": true
-          },
-          {
-            "title": "Flat Earth",
-            "url": "https://en.wikipedia.org/wiki/Flat_Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk. Many ancient societies subscribed to a flat-Earth cosmography. The model has undergone a recent resurgence as a conspiracy theory in the 21st century.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Earth",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/3840px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/330px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Earth",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 1329,
-        "followUps": [
-          "Tell me more about Earth",
-          "What are the key facts about Earth?",
-          "How does Earth work?"
-        ],
-        "topic": "Earth",
-        "search_query": "What is Earth?",
-        "context_used": false,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 2259
-    },
     {
       "id": "moon-definition",
       "query": "What is the Moon?",
@@ -90,17 +29,17 @@
             "verified": true
           },
           {
-            "title": "Full moon",
-            "url": "https://en.wikipedia.org/wiki/Full_moon",
+            "title": "Keith Moon",
+            "url": "https://en.wikipedia.org/wiki/Keith_Moon",
             "source": "en.wikipedia.org",
-            "snippet": "The full moon is the lunar phase when the Moon appears fully illuminated from Earth's perspective. This occurs when Earth is located between the Sun and the Moon. This means that the lunar hemisphere facing Earth—the near side—is completely sunlit and appears as an approximately circular disk. The full moon occurs roughly once a month.",
+            "snippet": "Keith John Moon was an English musician who was the drummer for the rock band the Who. Regarded as one of the greatest drummers in the history of rock music, he was noted for his unique style of playing and his eccentric, self-destructive behaviour.",
             "verified": true
           },
           {
-            "title": "Moon landing",
-            "url": "https://en.wikipedia.org/wiki/Moon_landing",
+            "title": "Sailor Moon",
+            "url": "https://en.wikipedia.org/wiki/Sailor_Moon",
             "source": "en.wikipedia.org",
-            "snippet": "A Moon landing is the arrival of a crewed or robotic lander on the Moon. The first human-made object to touch the Moon was Luna 2 in 1959, and the first crewed mission to land on the Moon was Apollo 11 in 1969.",
+            "snippet": "Sailor Moon  is a Japanese manga series written and illustrated by Naoko Takeuchi. It was originally serialized in Kodansha's shōjo manga magazine Nakayoshi from 1991 to 1997; the 60 individual chapters and several side stories were compiled into 18 tankōbon volumes. Set in Tokyo in the 1990s, the series follows the adventures of a schoolgirl named Usagi Tsukino as she transforms into the eponymous character to search for a magical artifact, the \"Legendary Silver Crystal\" . She leads a group of comrades, the Sailor Soldiers, called Sailor Guardians in later editions, as they battle against villains to prevent the theft of the Silver Crystal and the destruction of the Solar System.",
             "verified": true
           }
         ],
@@ -115,7 +54,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 1193,
+        "duration_ms": 557,
         "followUps": [
           "Tell me more about Moon",
           "What are the key facts about Moon?",
@@ -126,15 +65,15 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 2257
+      "duration_ms": 1308
     },
     {
-      "id": "earth-age",
-      "query": "How old is it?",
+      "id": "earth-definition",
+      "query": "What is Earth?",
       "pass": true,
       "response": {
-        "query": "How old is it?",
-        "answer": "Earth, like most other bodies in the Solar System, formed about 4.5 billion years ago from gas and dust in the early Solar System. [1]\n\nThe formation of the ocean and the subsequent development of life occurred during the first billion years of Earth's history. [1]",
+        "query": "What is Earth?",
+        "answer": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. [1]\n\nThis is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. [1]\n\nAlmost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. [1]",
         "results": [
           {
             "title": "Earth",
@@ -144,17 +83,17 @@
             "verified": true
           },
           {
-            "title": "In the Earth",
-            "url": "https://en.wikipedia.org/wiki/In_the_Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "In the Earth is a 2021 science fiction psychological horror film written and directed by Ben Wheatley. The film stars Joel Fry, Reece Shearsmith, Hayley Squires, Ellora Torchia, John Hollingworth, and Mark Monero.",
-            "verified": true
-          },
-          {
             "title": "Google Earth",
             "url": "https://en.wikipedia.org/wiki/Google_Earth",
             "source": "en.wikipedia.org",
             "snippet": "Google Earth is a web and computer program created by Google that renders a 3D representation of Earth based primarily on satellite imagery. The program maps the Earth by superimposing satellite images, aerial photography, and GIS data onto a 3D globe, allowing users to see cities and landscapes from various angles. Users can explore the globe by entering addresses and coordinates, or by using a keyboard or mouse. The program can also be downloaded on a smartphone or tablet, using a touch screen or stylus to navigate. Users may use the program to add their own data using Keyhole Markup Language and upload them through various sources, such as forums or blogs. Google Earth is able to show various kinds of images overlaid on the surface of the Earth and is also a Web Map Service client. In 2019, Google revealed that Google Earth covers more than 97 percent of the world.",
+            "verified": true
+          },
+          {
+            "title": "In the Earth",
+            "url": "https://en.wikipedia.org/wiki/In_the_Earth",
+            "source": "en.wikipedia.org",
+            "snippet": "In the Earth is a 2021 science fiction psychological horror film written and directed by Ben Wheatley. The film stars Joel Fry, Reece Shearsmith, Hayley Squires, Ellora Torchia, John Hollingworth, and Mark Monero.",
             "verified": true
           },
           {
@@ -176,79 +115,18 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 13,
+        "duration_ms": 597,
         "followUps": [
           "Tell me more about Earth",
           "What are the key facts about Earth?",
           "How does Earth work?"
         ],
         "topic": "Earth",
-        "search_query": "How old is Earth?",
-        "context_used": true,
+        "search_query": "What is Earth?",
+        "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 205
-    },
-    {
-      "id": "earth-distance",
-      "query": "How far is it from the Sun?",
-      "pass": true,
-      "response": {
-        "query": "How far is it from the Sun?",
-        "answer": "Earth is about eight light-minutes (1 astronomical unit [AU]) away from the Sun and orbits it, taking a year (about 365.25 days) to complete one revolution. [1]\n\nViewed from Earth, the Moon is just far enough away to have almost the same apparent-sized disk as the Sun. [1]",
-        "results": [
-          {
-            "title": "Earth",
-            "url": "https://en.wikipedia.org/wiki/Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.",
-            "verified": true
-          },
-          {
-            "title": "In the Earth",
-            "url": "https://en.wikipedia.org/wiki/In_the_Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "In the Earth is a 2021 science fiction psychological horror film written and directed by Ben Wheatley. The film stars Joel Fry, Reece Shearsmith, Hayley Squires, Ellora Torchia, John Hollingworth, and Mark Monero.",
-            "verified": true
-          },
-          {
-            "title": "Google Earth",
-            "url": "https://en.wikipedia.org/wiki/Google_Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "Google Earth is a web and computer program created by Google that renders a 3D representation of Earth based primarily on satellite imagery. The program maps the Earth by superimposing satellite images, aerial photography, and GIS data onto a 3D globe, allowing users to see cities and landscapes from various angles. Users can explore the globe by entering addresses and coordinates, or by using a keyboard or mouse. The program can also be downloaded on a smartphone or tablet, using a touch screen or stylus to navigate. Users may use the program to add their own data using Keyhole Markup Language and upload them through various sources, such as forums or blogs. Google Earth is able to show various kinds of images overlaid on the surface of the Earth and is also a Web Map Service client. In 2019, Google revealed that Google Earth covers more than 97 percent of the world.",
-            "verified": true
-          },
-          {
-            "title": "Flat Earth",
-            "url": "https://en.wikipedia.org/wiki/Flat_Earth",
-            "source": "en.wikipedia.org",
-            "snippet": "Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk. Many ancient societies subscribed to a flat-Earth cosmography. The model has undergone a recent resurgence as a conspiracy theory in the 21st century.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Earth",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/3840px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/330px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Earth",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 11,
-        "followUps": [
-          "Tell me more about Earth",
-          "What are the key facts about Earth?",
-          "How does Earth work?"
-        ],
-        "topic": "Earth",
-        "search_query": "How far is Earth from the Sun?",
-        "context_used": true,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 200
+      "duration_ms": 1400
     },
     {
       "id": "moon-distance",
@@ -280,10 +158,10 @@
             "verified": true
           },
           {
-            "title": "Moon landing",
-            "url": "https://en.wikipedia.org/wiki/Moon_landing",
+            "title": "Sailor Moon",
+            "url": "https://en.wikipedia.org/wiki/Sailor_Moon",
             "source": "en.wikipedia.org",
-            "snippet": "A Moon landing is the arrival of a crewed or robotic lander on the Moon. The first human-made object to touch the Moon was Luna 2 in 1959, and the first crewed mission to land on the Moon was Apollo 11 in 1969.",
+            "snippet": "Sailor Moon  is a Japanese manga series written and illustrated by Naoko Takeuchi. It was originally serialized in Kodansha's shōjo manga magazine Nakayoshi from 1991 to 1997; the 60 individual chapters and several side stories were compiled into 18 tankōbon volumes. Set in Tokyo in the 1990s, the series follows the adventures of a schoolgirl named Usagi Tsukino as she transforms into the eponymous character to search for a magical artifact, the \"Legendary Silver Crystal\" . She leads a group of comrades, the Sailor Soldiers, called Sailor Guardians in later editions, as they battle against villains to prevent the theft of the Silver Crystal and the destruction of the Solar System.",
             "verified": true
           }
         ],
@@ -298,7 +176,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 716,
+        "duration_ms": 248,
         "followUps": [
           "Tell me more about Moon",
           "What are the key facts about Moon?",
@@ -309,7 +187,68 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 905
+      "duration_ms": 492
+    },
+    {
+      "id": "earth-age",
+      "query": "How old is it?",
+      "pass": true,
+      "response": {
+        "query": "How old is it?",
+        "answer": "Earth, like most other bodies in the Solar System, formed about 4.5 billion years ago from gas and dust in the early Solar System. [1]\n\nThe formation of the ocean and the subsequent development of life occurred during the first billion years of Earth's history. [1]",
+        "results": [
+          {
+            "title": "Earth",
+            "url": "https://en.wikipedia.org/wiki/Earth",
+            "source": "en.wikipedia.org",
+            "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.",
+            "verified": true
+          },
+          {
+            "title": "Google Earth",
+            "url": "https://en.wikipedia.org/wiki/Google_Earth",
+            "source": "en.wikipedia.org",
+            "snippet": "Google Earth is a web and computer program created by Google that renders a 3D representation of Earth based primarily on satellite imagery. The program maps the Earth by superimposing satellite images, aerial photography, and GIS data onto a 3D globe, allowing users to see cities and landscapes from various angles. Users can explore the globe by entering addresses and coordinates, or by using a keyboard or mouse. The program can also be downloaded on a smartphone or tablet, using a touch screen or stylus to navigate. Users may use the program to add their own data using Keyhole Markup Language and upload them through various sources, such as forums or blogs. Google Earth is able to show various kinds of images overlaid on the surface of the Earth and is also a Web Map Service client. In 2019, Google revealed that Google Earth covers more than 97 percent of the world.",
+            "verified": true
+          },
+          {
+            "title": "In the Earth",
+            "url": "https://en.wikipedia.org/wiki/In_the_Earth",
+            "source": "en.wikipedia.org",
+            "snippet": "In the Earth is a 2021 science fiction psychological horror film written and directed by Ben Wheatley. The film stars Joel Fry, Reece Shearsmith, Hayley Squires, Ellora Torchia, John Hollingworth, and Mark Monero.",
+            "verified": true
+          },
+          {
+            "title": "Flat Earth",
+            "url": "https://en.wikipedia.org/wiki/Flat_Earth",
+            "source": "en.wikipedia.org",
+            "snippet": "Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk. Many ancient societies subscribed to a flat-Earth cosmography. The model has undergone a recent resurgence as a conspiracy theory in the 21st century.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Earth",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/3840px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/330px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Earth",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 261,
+        "followUps": [
+          "Tell me more about Earth",
+          "What are the key facts about Earth?",
+          "How does Earth work?"
+        ],
+        "topic": "Earth",
+        "search_query": "How old is Earth?",
+        "context_used": true,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 538
     },
     {
       "id": "moon-orbit",
@@ -341,10 +280,10 @@
             "verified": true
           },
           {
-            "title": "Moon landing",
-            "url": "https://en.wikipedia.org/wiki/Moon_landing",
+            "title": "Sailor Moon",
+            "url": "https://en.wikipedia.org/wiki/Sailor_Moon",
             "source": "en.wikipedia.org",
-            "snippet": "A Moon landing is the arrival of a crewed or robotic lander on the Moon. The first human-made object to touch the Moon was Luna 2 in 1959, and the first crewed mission to land on the Moon was Apollo 11 in 1969.",
+            "snippet": "Sailor Moon  is a Japanese manga series written and illustrated by Naoko Takeuchi. It was originally serialized in Kodansha's shōjo manga magazine Nakayoshi from 1991 to 1997; the 60 individual chapters and several side stories were compiled into 18 tankōbon volumes. Set in Tokyo in the 1990s, the series follows the adventures of a schoolgirl named Usagi Tsukino as she transforms into the eponymous character to search for a magical artifact, the \"Legendary Silver Crystal\" . She leads a group of comrades, the Sailor Soldiers, called Sailor Guardians in later editions, as they battle against villains to prevent the theft of the Silver Crystal and the destruction of the Solar System.",
             "verified": true
           }
         ],
@@ -359,7 +298,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 14,
+        "duration_ms": 247,
         "followUps": [
           "Tell me more about Moon",
           "What are the key facts about Moon?",
@@ -370,129 +309,68 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 211
+      "duration_ms": 502
     },
     {
-      "id": "mars-definition",
-      "query": "What is Mars?",
+      "id": "earth-distance",
+      "query": "How far is it from the Sun?",
       "pass": true,
       "response": {
-        "query": "What is Mars?",
-        "answer": "Mars is the fourth planet from the Sun. [1]\n\nIt is also known as the \" Red Planet \", for its orange-red appearance. [1]\n\nMars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide (.mw-parser-output.template-chem2-su{display:inline-block;font-size:80%;line-height:1;vertical-align:-0.35em}.mw-parser-output.template-chem2-su>span{display:block;text-align:left}.mw-parser-output sub.template-chem2-sub{font-size:80%;vertical-align:-0.35em}.mw-parser-output sup.template-chem2-sup{font-size:80%;vertical-align:0.65em} CO 2). [1]",
+        "query": "How far is it from the Sun?",
+        "answer": "Earth is about eight light-minutes (1 astronomical unit [AU]) away from the Sun and orbits it, taking a year (about 365.25 days) to complete one revolution. [1]\n\nViewed from Earth, the Moon is just far enough away to have almost the same apparent-sized disk as the Sun. [1]",
         "results": [
           {
-            "title": "Mars",
-            "url": "https://en.wikipedia.org/wiki/Mars",
+            "title": "Earth",
+            "url": "https://en.wikipedia.org/wiki/Earth",
             "source": "en.wikipedia.org",
-            "snippet": "Mars is the fourth planet from the Sun. It is also known as the \"Red Planet\", for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide. At the average surface level the atmospheric pressure is a few thousandths of Earth's, atmospheric temperature ranges from −153 to 20 °C, and cosmic radiation is high. Mars retains some water, in the ground as well as thinly in the atmosphere, forming cirrus clouds, fog, frost, larger polar regions of permafrost and ice caps, but no bodies of liquid surface water. Its surface gravity is roughly a third of Earth's or double that of the Moon. Its mean diameter, 6,779 km (4,212 mi), is about half the Earth's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth.",
+            "snippet": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.",
             "verified": true
           },
           {
-            "title": "Bruno Mars",
-            "url": "https://en.wikipedia.org/wiki/Bruno_Mars",
+            "title": "Google Earth",
+            "url": "https://en.wikipedia.org/wiki/Google_Earth",
             "source": "en.wikipedia.org",
-            "snippet": "Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter, record producer and dancer. Regarded as a pop icon, he is known for his three-octave tenor vocal range, live performances, retro showmanship, and musical versatility. He is accompanied by his band, the Hooligans. Raised in Honolulu, Mars gained recognition in Hawaii as a child for his impersonation of Elvis Presley, before moving to Los Angeles in 2003 to pursue a musical career.",
+            "snippet": "Google Earth is a web and computer program created by Google that renders a 3D representation of Earth based primarily on satellite imagery. The program maps the Earth by superimposing satellite images, aerial photography, and GIS data onto a 3D globe, allowing users to see cities and landscapes from various angles. Users can explore the globe by entering addresses and coordinates, or by using a keyboard or mouse. The program can also be downloaded on a smartphone or tablet, using a touch screen or stylus to navigate. Users may use the program to add their own data using Keyhole Markup Language and upload them through various sources, such as forums or blogs. Google Earth is able to show various kinds of images overlaid on the surface of the Earth and is also a Web Map Service client. In 2019, Google revealed that Google Earth covers more than 97 percent of the world.",
             "verified": true
           },
           {
-            "title": "Mars (mythology)",
-            "url": "https://en.wikipedia.org/wiki/Mars_(mythology)",
+            "title": "In the Earth",
+            "url": "https://en.wikipedia.org/wiki/In_the_Earth",
             "source": "en.wikipedia.org",
-            "snippet": "In ancient Roman religion and mythology, Mars is the god of war and also an agricultural guardian, a combination characteristic of early Rome. He is the son of Jupiter and Juno, and was pre-eminent among the Roman army's military gods. Most of his festivals were held in March, the month named for him, and in October, the months which traditionally began and ended the season for both military campaigning and farming.",
+            "snippet": "In the Earth is a 2021 science fiction psychological horror film written and directed by Ben Wheatley. The film stars Joel Fry, Reece Shearsmith, Hayley Squires, Ellora Torchia, John Hollingworth, and Mark Monero.",
             "verified": true
           },
           {
-            "title": "Mars Inc.",
-            "url": "https://en.wikipedia.org/wiki/Mars_Inc.",
+            "title": "Flat Earth",
+            "url": "https://en.wikipedia.org/wiki/Flat_Earth",
             "source": "en.wikipedia.org",
-            "snippet": "Mars, Incorporated is an American multinational manufacturer of confectionery, pet food, and other food products and a provider of animal care services founded on June 23, 1911. Mars is headquartered in McLean, Virginia, in the Washington metropolitan area, and is entirely owned by the Mars family. The company had US$45 billion in annual sales in 2022; that year Forbes ranked the company as the fourth-largest privately held company in the United States.",
+            "snippet": "Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk. Many ancient societies subscribed to a flat-Earth cosmography. The model has undergone a recent resurgence as a conspiracy theory in the 21st century.",
             "verified": true
           }
         ],
         "images": [
           {
-            "title": "Mars",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/330px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Mars",
+            "title": "Earth",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/3840px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Meteosat-12-fci-march-equinox-2025-noon.jpg/330px-Meteosat-12-fci-march-equinox-2025-noon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Earth",
             "source": "Wikipedia"
           }
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 1115,
+        "duration_ms": 278,
         "followUps": [
-          "Tell me more about Mars",
-          "What are the key facts about Mars?",
-          "How does Mars work?"
+          "Tell me more about Earth",
+          "What are the key facts about Earth?",
+          "How does Earth work?"
         ],
-        "topic": "Mars",
-        "search_query": "What is Mars?",
-        "context_used": false,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 1296
-    },
-    {
-      "id": "mars-size",
-      "query": "How big is it?",
-      "pass": true,
-      "response": {
-        "query": "How big is it?",
-        "answer": "Its mean diameter, 6,779 km (4,212 mi), is about half the Earth 's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth. [1]\n\nMars is approximately half the diameter of Earth or twice that of the Moon, with a surface area only slightly less than the total area of Earth's dry land. [1]",
-        "results": [
-          {
-            "title": "Mars",
-            "url": "https://en.wikipedia.org/wiki/Mars",
-            "source": "en.wikipedia.org",
-            "snippet": "Mars is the fourth planet from the Sun. It is also known as the \"Red Planet\", for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide. At the average surface level the atmospheric pressure is a few thousandths of Earth's, atmospheric temperature ranges from −153 to 20 °C, and cosmic radiation is high. Mars retains some water, in the ground as well as thinly in the atmosphere, forming cirrus clouds, fog, frost, larger polar regions of permafrost and ice caps, but no bodies of liquid surface water. Its surface gravity is roughly a third of Earth's or double that of the Moon. Its mean diameter, 6,779 km (4,212 mi), is about half the Earth's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth.",
-            "verified": true
-          },
-          {
-            "title": "Bruno Mars",
-            "url": "https://en.wikipedia.org/wiki/Bruno_Mars",
-            "source": "en.wikipedia.org",
-            "snippet": "Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter, record producer and dancer. Regarded as a pop icon, he is known for his three-octave tenor vocal range, live performances, retro showmanship, and musical versatility. He is accompanied by his band, the Hooligans. Raised in Honolulu, Mars gained recognition in Hawaii as a child for his impersonation of Elvis Presley, before moving to Los Angeles in 2003 to pursue a musical career.",
-            "verified": true
-          },
-          {
-            "title": "Mars (mythology)",
-            "url": "https://en.wikipedia.org/wiki/Mars_(mythology)",
-            "source": "en.wikipedia.org",
-            "snippet": "In ancient Roman religion and mythology, Mars is the god of war and also an agricultural guardian, a combination characteristic of early Rome. He is the son of Jupiter and Juno, and was pre-eminent among the Roman army's military gods. Most of his festivals were held in March, the month named for him, and in October, the months which traditionally began and ended the season for both military campaigning and farming.",
-            "verified": true
-          },
-          {
-            "title": "Mars Inc.",
-            "url": "https://en.wikipedia.org/wiki/Mars_Inc.",
-            "source": "en.wikipedia.org",
-            "snippet": "Mars, Incorporated is an American multinational manufacturer of confectionery, pet food, and other food products and a provider of animal care services founded on June 23, 1911. Mars is headquartered in McLean, Virginia, in the Washington metropolitan area, and is entirely owned by the Mars family. The company had US$45 billion in annual sales in 2022; that year Forbes ranked the company as the fourth-largest privately held company in the United States.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Mars",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/330px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Mars",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 75,
-        "followUps": [
-          "Tell me more about Mars",
-          "What are the key facts about Mars?",
-          "How does Mars work?"
-        ],
-        "topic": "Mars",
-        "search_query": "How big is Mars?",
+        "topic": "Earth",
+        "search_query": "How far is Earth from the Sun?",
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 250
+      "duration_ms": 534
     },
     {
       "id": "sun-definition",
@@ -542,7 +420,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 1504,
+        "duration_ms": 568,
         "followUps": [
           "Tell me more about Sun",
           "What are the key facts about Sun?",
@@ -553,7 +431,7 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1682
+      "duration_ms": 808
     },
     {
       "id": "sun-age",
@@ -603,7 +481,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 12,
+        "duration_ms": 241,
         "followUps": [
           "Tell me more about Sun",
           "What are the key facts about Sun?",
@@ -614,7 +492,7 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 197
+      "duration_ms": 486
     },
     {
       "id": "sun-temperature",
@@ -664,7 +542,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 12,
+        "duration_ms": 227,
         "followUps": [
           "Tell me more about Sun",
           "What are the key facts about Sun?",
@@ -675,7 +553,251 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 190
+      "duration_ms": 481
+    },
+    {
+      "id": "mars-definition",
+      "query": "What is Mars?",
+      "pass": true,
+      "response": {
+        "query": "What is Mars?",
+        "answer": "Mars is the fourth planet from the Sun. [1]\n\nIt is also known as the \" Red Planet \", for its orange-red appearance. [1]\n\nMars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide (.mw-parser-output.template-chem2-su{display:inline-block;font-size:80%;line-height:1;vertical-align:-0.35em}.mw-parser-output.template-chem2-su>span{display:block;text-align:left}.mw-parser-output sub.template-chem2-sub{font-size:80%;vertical-align:-0.35em}.mw-parser-output sup.template-chem2-sup{font-size:80%;vertical-align:0.65em} CO 2). [1]",
+        "results": [
+          {
+            "title": "Mars",
+            "url": "https://en.wikipedia.org/wiki/Mars",
+            "source": "en.wikipedia.org",
+            "snippet": "Mars is the fourth planet from the Sun. It is also known as the \"Red Planet\", for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide. At the average surface level the atmospheric pressure is a few thousandths of Earth's, atmospheric temperature ranges from −153 to 20 °C, and cosmic radiation is high. Mars retains some water, in the ground as well as thinly in the atmosphere, forming cirrus clouds, fog, frost, larger polar regions of permafrost and ice caps, but no bodies of liquid surface water. Its surface gravity is roughly a third of Earth's or double that of the Moon. Its mean diameter, 6,779 km (4,212 mi), is about half the Earth's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth.",
+            "verified": true
+          },
+          {
+            "title": "Bruno Mars",
+            "url": "https://en.wikipedia.org/wiki/Bruno_Mars",
+            "source": "en.wikipedia.org",
+            "snippet": "Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter, record producer and dancer. Regarded as a pop icon, he is known for his three-octave tenor vocal range, live performances, retro showmanship, and musical versatility. He is accompanied by his band, the Hooligans. Raised in Honolulu, Mars gained recognition in Hawaii as a child for his impersonation of Elvis Presley, before moving to Los Angeles in 2003 to pursue a musical career.",
+            "verified": true
+          },
+          {
+            "title": "Mars (mythology)",
+            "url": "https://en.wikipedia.org/wiki/Mars_(mythology)",
+            "source": "en.wikipedia.org",
+            "snippet": "In ancient Roman religion and mythology, Mars is the god of war and also an agricultural guardian, a combination characteristic of early Rome. He is the son of Jupiter and Juno, and was pre-eminent among the Roman army's military gods. Most of his festivals were held in March, the month named for him, and in October, the months which traditionally began and ended the season for both military campaigning and farming.",
+            "verified": true
+          },
+          {
+            "title": "Mars Inc.",
+            "url": "https://en.wikipedia.org/wiki/Mars_Inc.",
+            "source": "en.wikipedia.org",
+            "snippet": "Mars, Incorporated is an American multinational manufacturer of confectionery, pet food, and other food products and a provider of animal care services founded on June 23, 1911. Mars is headquartered in McLean, Virginia, in the Washington metropolitan area, and is entirely owned by the Mars family. The company had US$45 billion in annual sales in 2022; that year Forbes ranked the company as the fourth-largest privately held company in the United States.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Mars",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/330px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Mars",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 1853,
+        "followUps": [
+          "Tell me more about Mars",
+          "What are the key facts about Mars?",
+          "How does Mars work?"
+        ],
+        "topic": "Mars",
+        "search_query": "What is Mars?",
+        "context_used": false,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 2094
+    },
+    {
+      "id": "mars-size",
+      "query": "How big is it?",
+      "pass": true,
+      "response": {
+        "query": "How big is it?",
+        "answer": "Its mean diameter, 6,779 km (4,212 mi), is about half the Earth 's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth. [1]\n\nMars is approximately half the diameter of Earth or twice that of the Moon, with a surface area only slightly less than the total area of Earth's dry land. [1]",
+        "results": [
+          {
+            "title": "Mars",
+            "url": "https://en.wikipedia.org/wiki/Mars",
+            "source": "en.wikipedia.org",
+            "snippet": "Mars is the fourth planet from the Sun. It is also known as the \"Red Planet\", for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide. At the average surface level the atmospheric pressure is a few thousandths of Earth's, atmospheric temperature ranges from −153 to 20 °C, and cosmic radiation is high. Mars retains some water, in the ground as well as thinly in the atmosphere, forming cirrus clouds, fog, frost, larger polar regions of permafrost and ice caps, but no bodies of liquid surface water. Its surface gravity is roughly a third of Earth's or double that of the Moon. Its mean diameter, 6,779 km (4,212 mi), is about half the Earth's, or twice the Moon's, and its surface area is around the size of all the dry land of Earth.",
+            "verified": true
+          },
+          {
+            "title": "Bruno Mars",
+            "url": "https://en.wikipedia.org/wiki/Bruno_Mars",
+            "source": "en.wikipedia.org",
+            "snippet": "Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter, record producer and dancer. Regarded as a pop icon, he is known for his three-octave tenor vocal range, live performances, retro showmanship, and musical versatility. He is accompanied by his band, the Hooligans. Raised in Honolulu, Mars gained recognition in Hawaii as a child for his impersonation of Elvis Presley, before moving to Los Angeles in 2003 to pursue a musical career.",
+            "verified": true
+          },
+          {
+            "title": "Mars (mythology)",
+            "url": "https://en.wikipedia.org/wiki/Mars_(mythology)",
+            "source": "en.wikipedia.org",
+            "snippet": "In ancient Roman religion and mythology, Mars is the god of war and also an agricultural guardian, a combination characteristic of early Rome. He is the son of Jupiter and Juno, and was pre-eminent among the Roman army's military gods. Most of his festivals were held in March, the month named for him, and in October, the months which traditionally began and ended the season for both military campaigning and farming.",
+            "verified": true
+          },
+          {
+            "title": "Mars Inc.",
+            "url": "https://en.wikipedia.org/wiki/Mars_Inc.",
+            "source": "en.wikipedia.org",
+            "snippet": "Mars, Incorporated is an American multinational manufacturer of confectionery, pet food, and other food products and a provider of animal care services founded on June 23, 1911. Mars is headquartered in McLean, Virginia, in the Washington metropolitan area, and is entirely owned by the Mars family. The company had US$45 billion in annual sales in 2022; that year Forbes ranked the company as the fourth-largest privately held company in the United States.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Mars",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/330px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Mars",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 13,
+        "followUps": [
+          "Tell me more about Mars",
+          "What are the key facts about Mars?",
+          "How does Mars work?"
+        ],
+        "topic": "Mars",
+        "search_query": "How big is Mars?",
+        "context_used": true,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 260
+    },
+    {
+      "id": "jupiter-definition",
+      "query": "What is Jupiter?",
+      "pass": true,
+      "response": {
+        "query": "What is Jupiter?",
+        "answer": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. [1]\n\nIt is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the Sun. [1]\n\nThe diameter of Jupiter is 11 times that of Earth and a tenth that of the Sun. [1]",
+        "results": [
+          {
+            "title": "Jupiter",
+            "url": "https://en.wikipedia.org/wiki/Jupiter",
+            "source": "en.wikipedia.org",
+            "snippet": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. It is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the Sun. The diameter of Jupiter is 11 times that of Earth and a tenth that of the Sun. It orbits the Sun at a distance of 5.20 AU (778.5 Gm), with an orbital period of 11.86 years. Jupiter is the third-brightest natural object in the Earth's night sky, after the Moon and Venus, and has been observed since prehistoric times. Its name derives from that of Jupiter, the chief deity of ancient Roman religion.",
+            "verified": true
+          },
+          {
+            "title": "Jupiter (god)",
+            "url": "https://en.wikipedia.org/wiki/Jupiter_(god)",
+            "source": "en.wikipedia.org",
+            "snippet": "In ancient Roman religion and mythology, Jupiter, also known as Jove, is the god of the sky and thunder, and king of the gods. Jupiter was the chief deity of Roman state religion throughout the Republican and Imperial eras, until Christianity became the dominant religion of the Empire. In Roman mythology, he negotiates with Numa Pompilius, the second king of Rome, to establish principles of Roman religion such as offering, or sacrifice.",
+            "verified": true
+          },
+          {
+            "title": "Moons of Jupiter",
+            "url": "https://en.wikipedia.org/wiki/Moons_of_Jupiter",
+            "source": "en.wikipedia.org",
+            "snippet": "There are 115 known moons of the planet Jupiter as of 9 April 2026. This number does not include a number of meter-sized moonlets thought to be shed from the inner moons, nor hundreds of possible kilometer-sized outer irregular moons that were only briefly captured by telescopes. All together, Jupiter's moons form a satellite system, colloquially referred to as the Jovian system. The most massive of the moons are the four Galilean moons: Io, Europa, Ganymede, and Callisto, all of which were independently discovered in 1610 by Galileo Galilei and Simon Marius and were the first objects found to orbit a body that was neither Earth nor the Sun. Much more recently, beginning in 1892, dozens of far smaller Jovian moons have been detected and have received the names of lovers or daughters of the Roman god Jupiter or his Greek equivalent Zeus. The Galilean moons are by far the largest and most massive objects to orbit Jupiter, with the remaining 111 known moons and the rings together comprising just 0.003% of the total orbiting mass.",
+            "verified": true
+          },
+          {
+            "title": "Jupiter, Florida",
+            "url": "https://en.wikipedia.org/wiki/Jupiter%2C_Florida",
+            "source": "en.wikipedia.org",
+            "snippet": "Jupiter is the northernmost town in Palm Beach County, Florida, United States. Located along the Atlantic coast of South Florida at the mouth of the Loxahatchee River, the town is bordered by the Atlantic Ocean to the east, Martin County and the village of Tequesta to the north, unincorporated Palm Beach County to the west, and Juno Beach to the south. The town is connected to the Intracoastal Waterway through the Indian River Lagoon, which reaches its southern terminus at the Jupiter Inlet. Approximately 84 miles north of Miami and 15 miles north of West Palm Beach, Jupiter, together with the adjacent village of Tequesta, forms the northernmost municipality in the Miami metropolitan area.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Jupiter",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/330px-Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Jupiter",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 576,
+        "followUps": [
+          "Tell me more about Jupiter",
+          "What are the key facts about Jupiter?",
+          "How does Jupiter work?"
+        ],
+        "topic": "Jupiter",
+        "search_query": "What is Jupiter?",
+        "context_used": false,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 811
+    },
+    {
+      "id": "jupiter-size",
+      "query": "How big is it?",
+      "pass": true,
+      "response": {
+        "query": "How big is it?",
+        "answer": "Jupiter's radius is about one tenth the radius of the Sun (0.102 75 R ☉), and its mass is one thousandth the mass of the Sun, meaning the densities of the two bodies are similar. [1]\n\nAs a result, Jupiter is thought to have about as large a diameter as a planet of its composition and evolutionary history can achieve. [1]",
+        "results": [
+          {
+            "title": "Jupiter",
+            "url": "https://en.wikipedia.org/wiki/Jupiter",
+            "source": "en.wikipedia.org",
+            "snippet": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. It is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the Sun. The diameter of Jupiter is 11 times that of Earth and a tenth that of the Sun. It orbits the Sun at a distance of 5.20 AU (778.5 Gm), with an orbital period of 11.86 years. Jupiter is the third-brightest natural object in the Earth's night sky, after the Moon and Venus, and has been observed since prehistoric times. Its name derives from that of Jupiter, the chief deity of ancient Roman religion.",
+            "verified": true
+          },
+          {
+            "title": "Jupiter (god)",
+            "url": "https://en.wikipedia.org/wiki/Jupiter_(god)",
+            "source": "en.wikipedia.org",
+            "snippet": "In ancient Roman religion and mythology, Jupiter, also known as Jove, is the god of the sky and thunder, and king of the gods. Jupiter was the chief deity of Roman state religion throughout the Republican and Imperial eras, until Christianity became the dominant religion of the Empire. In Roman mythology, he negotiates with Numa Pompilius, the second king of Rome, to establish principles of Roman religion such as offering, or sacrifice.",
+            "verified": true
+          },
+          {
+            "title": "Moons of Jupiter",
+            "url": "https://en.wikipedia.org/wiki/Moons_of_Jupiter",
+            "source": "en.wikipedia.org",
+            "snippet": "There are 115 known moons of the planet Jupiter as of 9 April 2026. This number does not include a number of meter-sized moonlets thought to be shed from the inner moons, nor hundreds of possible kilometer-sized outer irregular moons that were only briefly captured by telescopes. All together, Jupiter's moons form a satellite system, colloquially referred to as the Jovian system. The most massive of the moons are the four Galilean moons: Io, Europa, Ganymede, and Callisto, all of which were independently discovered in 1610 by Galileo Galilei and Simon Marius and were the first objects found to orbit a body that was neither Earth nor the Sun. Much more recently, beginning in 1892, dozens of far smaller Jovian moons have been detected and have received the names of lovers or daughters of the Roman god Jupiter or his Greek equivalent Zeus. The Galilean moons are by far the largest and most massive objects to orbit Jupiter, with the remaining 111 known moons and the rings together comprising just 0.003% of the total orbiting mass.",
+            "verified": true
+          },
+          {
+            "title": "Jupiter, Florida",
+            "url": "https://en.wikipedia.org/wiki/Jupiter%2C_Florida",
+            "source": "en.wikipedia.org",
+            "snippet": "Jupiter is the northernmost town in Palm Beach County, Florida, United States. Located along the Atlantic coast of South Florida at the mouth of the Loxahatchee River, the town is bordered by the Atlantic Ocean to the east, Martin County and the village of Tequesta to the north, unincorporated Palm Beach County to the west, and Juno Beach to the south. The town is connected to the Intracoastal Waterway through the Indian River Lagoon, which reaches its southern terminus at the Jupiter Inlet. Approximately 84 miles north of Miami and 15 miles north of West Palm Beach, Jupiter, together with the adjacent village of Tequesta, forms the northernmost municipality in the Miami metropolitan area.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Jupiter",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/330px-Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Jupiter",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 11,
+        "followUps": [
+          "Tell me more about Jupiter",
+          "What are the key facts about Jupiter?",
+          "How does Jupiter work?"
+        ],
+        "topic": "Jupiter",
+        "search_query": "How big is Jupiter?",
+        "context_used": true,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 249
     },
     {
       "id": "switch-venus",
@@ -725,7 +847,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 1549,
+        "duration_ms": 536,
         "followUps": [
           "Tell me more about Venus",
           "What are the key facts about Venus?",
@@ -736,129 +858,68 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1738
+      "duration_ms": 778
     },
     {
-      "id": "jupiter-definition",
-      "query": "What is Jupiter?",
+      "id": "switch-saturn",
+      "query": "And what about Saturn?",
       "pass": true,
       "response": {
-        "query": "What is Jupiter?",
-        "answer": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. [1]\n\nIt is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the Sun. [1]\n\nThe diameter of Jupiter is 11 times that of Earth and a tenth that of the Sun. [1]",
+        "query": "And what about Saturn?",
+        "answer": "Saturn is the sixth planet from the Sun, and is the second largest planet in the Solar System, after Jupiter. [1]\n\nEven though Saturn is almost as big as Jupiter, it has less than a third of its mass. [1]",
         "results": [
           {
-            "title": "Jupiter",
-            "url": "https://en.wikipedia.org/wiki/Jupiter",
+            "title": "Saturn",
+            "url": "https://en.wikipedia.org/wiki/Saturn",
             "source": "en.wikipedia.org",
-            "snippet": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. It is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the Sun. The diameter of Jupiter is 11 times that of Earth and a tenth that of the Sun. It orbits the Sun at a distance of 5.20 AU (778.5 Gm), with an orbital period of 11.86 years. Jupiter is the third-brightest natural object in the Earth's night sky, after the Moon and Venus, and has been observed since prehistoric times. Its name derives from that of Jupiter, the chief deity of ancient Roman religion.",
+            "snippet": "Saturn is the sixth planet from the Sun, and is the second largest planet in the Solar System, after Jupiter. It is a gas giant, with an average radius of about 9 times that of Earth. It has an eighth of the average density of Earth, but is over 95 times more massive. Even though Saturn is almost as big as Jupiter, it has less than a third of its mass. Saturn orbits the Sun at a distance of 9.59 AU (1,434 million km), with an orbital period of 29.45 years.",
             "verified": true
           },
           {
-            "title": "Jupiter (god)",
-            "url": "https://en.wikipedia.org/wiki/Jupiter_(god)",
+            "title": "Sega Saturn",
+            "url": "https://en.wikipedia.org/wiki/Sega_Saturn",
             "source": "en.wikipedia.org",
-            "snippet": "In ancient Roman religion and mythology, Jupiter, also known as Jove, is the god of the sky and thunder, and king of the gods. Jupiter was the chief deity of Roman state religion throughout the Republican and Imperial eras, until Christianity became the dominant religion of the Empire. In Roman mythology, he negotiates with Numa Pompilius, the second king of Rome, to establish principles of Roman religion such as offering, or sacrifice.",
+            "snippet": "The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994, in Japan, May 11, 1995, in North America, and July 8, 1995, in Europe. Part of the fifth generation of video game consoles, it is the successor to the successful Genesis. The Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, including several ports of arcade games and original games.",
             "verified": true
           },
           {
-            "title": "Moons of Jupiter",
-            "url": "https://en.wikipedia.org/wiki/Moons_of_Jupiter",
+            "title": "Saturn V",
+            "url": "https://en.wikipedia.org/wiki/Saturn_V",
             "source": "en.wikipedia.org",
-            "snippet": "There are 115 known moons of the planet Jupiter as of 9 April 2026. This number does not include a number of meter-sized moonlets thought to be shed from the inner moons, nor hundreds of possible kilometer-sized outer irregular moons that were only briefly captured by telescopes. All together, Jupiter's moons form a satellite system, colloquially referred to as the Jovian system. The most massive of the moons are the four Galilean moons: Io, Europa, Ganymede, and Callisto, all of which were independently discovered in 1610 by Galileo Galilei and Simon Marius and were the first objects found to orbit a body that was neither Earth nor the Sun. Much more recently, beginning in 1892, dozens of far smaller Jovian moons have been detected and have received the names of lovers or daughters of the Roman god Jupiter or his Greek equivalent Zeus. The Galilean moons are by far the largest and most massive objects to orbit Jupiter, with the remaining 111 known moons and the rings together comprising just 0.003% of the total orbiting mass.",
+            "snippet": "The Saturn V is a retired American super heavy-lift launch vehicle developed by NASA under the Apollo program for human exploration of the Moon. The rocket was human-rated, had three stages, and was liquid-fueled. Thirteen Saturn V vehicles were launched, from 1967 to 1973, all from Kennedy Space Center Launch Complex 39, nine of which launched 24 astronauts toward the Moon from Apollo 8 to Apollo 17. Its final launch was Skylab, the first American space station, converted from its own third stage.",
             "verified": true
           },
           {
-            "title": "Jupiter 1",
-            "url": "https://en.wikipedia.org/wiki/Jupiter_1",
+            "title": "Saturn Corporation",
+            "url": "https://en.wikipedia.org/wiki/Saturn_Corporation",
             "source": "en.wikipedia.org",
-            "snippet": "Jupiter 1 or variant may refer to:Jupiter One, a U.S. rock band\nJupiter One (album), the eponymous 2008 album by the band Jupiter One\nJupiter I, an early name for Io, a moon of Jupiter\nRoland Jupiter-1, the original Roland Jupiter synthesizer\nBrazil Straker Jupiter I, a variant of the Bristol Jupiter aircraft engine",
+            "snippet": "The Saturn Corporation, also known as Saturn LLC, was an American automobile manufacturer, a registered trademark established on January 7, 1985, as a subsidiary of General Motors. The company was an attempt by GM to compete directly with Japanese imports and transplants, initially in the American compact car market. The company was known for its \"no-haggle\" sales technique.",
             "verified": true
           }
         ],
         "images": [
           {
-            "title": "Jupiter",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/330px-Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Jupiter",
+            "title": "Saturn",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/3840px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/330px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Saturn",
             "source": "Wikipedia"
           }
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 1089,
+        "duration_ms": 558,
         "followUps": [
-          "Tell me more about Jupiter",
-          "What are the key facts about Jupiter?",
-          "How does Jupiter work?"
+          "Tell me more about Saturn",
+          "What are the key facts about Saturn?",
+          "How does Saturn work?"
         ],
-        "topic": "Jupiter",
-        "search_query": "What is Jupiter?",
+        "topic": "Saturn",
+        "search_query": "And what about Saturn?",
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1274
-    },
-    {
-      "id": "jupiter-size",
-      "query": "How big is it?",
-      "pass": true,
-      "response": {
-        "query": "How big is it?",
-        "answer": "Jupiter's radius is about one tenth the radius of the Sun (0.102 75 R ☉), and its mass is one thousandth the mass of the Sun, meaning the densities of the two bodies are similar. [1]\n\nAs a result, Jupiter is thought to have about as large a diameter as a planet of its composition and evolutionary history can achieve. [1]",
-        "results": [
-          {
-            "title": "Jupiter",
-            "url": "https://en.wikipedia.org/wiki/Jupiter",
-            "source": "en.wikipedia.org",
-            "snippet": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. It is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the Sun. The diameter of Jupiter is 11 times that of Earth and a tenth that of the Sun. It orbits the Sun at a distance of 5.20 AU (778.5 Gm), with an orbital period of 11.86 years. Jupiter is the third-brightest natural object in the Earth's night sky, after the Moon and Venus, and has been observed since prehistoric times. Its name derives from that of Jupiter, the chief deity of ancient Roman religion.",
-            "verified": true
-          },
-          {
-            "title": "Jupiter (god)",
-            "url": "https://en.wikipedia.org/wiki/Jupiter_(god)",
-            "source": "en.wikipedia.org",
-            "snippet": "In ancient Roman religion and mythology, Jupiter, also known as Jove, is the god of the sky and thunder, and king of the gods. Jupiter was the chief deity of Roman state religion throughout the Republican and Imperial eras, until Christianity became the dominant religion of the Empire. In Roman mythology, he negotiates with Numa Pompilius, the second king of Rome, to establish principles of Roman religion such as offering, or sacrifice.",
-            "verified": true
-          },
-          {
-            "title": "Moons of Jupiter",
-            "url": "https://en.wikipedia.org/wiki/Moons_of_Jupiter",
-            "source": "en.wikipedia.org",
-            "snippet": "There are 115 known moons of the planet Jupiter as of 9 April 2026. This number does not include a number of meter-sized moonlets thought to be shed from the inner moons, nor hundreds of possible kilometer-sized outer irregular moons that were only briefly captured by telescopes. All together, Jupiter's moons form a satellite system, colloquially referred to as the Jovian system. The most massive of the moons are the four Galilean moons: Io, Europa, Ganymede, and Callisto, all of which were independently discovered in 1610 by Galileo Galilei and Simon Marius and were the first objects found to orbit a body that was neither Earth nor the Sun. Much more recently, beginning in 1892, dozens of far smaller Jovian moons have been detected and have received the names of lovers or daughters of the Roman god Jupiter or his Greek equivalent Zeus. The Galilean moons are by far the largest and most massive objects to orbit Jupiter, with the remaining 111 known moons and the rings together comprising just 0.003% of the total orbiting mass.",
-            "verified": true
-          },
-          {
-            "title": "Jupiter 1",
-            "url": "https://en.wikipedia.org/wiki/Jupiter_1",
-            "source": "en.wikipedia.org",
-            "snippet": "Jupiter 1 or variant may refer to:Jupiter One, a U.S. rock band\nJupiter One (album), the eponymous 2008 album by the band Jupiter One\nJupiter I, an early name for Io, a moon of Jupiter\nRoland Jupiter-1, the original Roland Jupiter synthesizer\nBrazil Straker Jupiter I, a variant of the Bristol Jupiter aircraft engine",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Jupiter",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/330px-Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Jupiter",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 14,
-        "followUps": [
-          "Tell me more about Jupiter",
-          "What are the key facts about Jupiter?",
-          "How does Jupiter work?"
-        ],
-        "topic": "Jupiter",
-        "search_query": "How big is Jupiter?",
-        "context_used": true,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 194
+      "duration_ms": 812
     },
     {
       "id": "photosynthesis-definition",
@@ -908,7 +969,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 945,
+        "duration_ms": 434,
         "followUps": [
           "Tell me more about Photosynthesis",
           "What are the key facts about Photosynthesis?",
@@ -919,7 +980,7 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1135
+      "duration_ms": 665
     },
     {
       "id": "photosynthesis-importance",
@@ -944,17 +1005,17 @@
             "verified": true
           },
           {
-            "title": "Photosynthesis Research",
-            "url": "https://en.wikipedia.org/wiki/Photosynthesis_Research",
-            "source": "en.wikipedia.org",
-            "snippet": "Photosynthesis Research is a quarterly peer-reviewed scientific journal covering various aspects of photosynthesis. It is published by Springer Science+Business Media on behalf of the International Society of Photosynthesis Research and was established in 1980. The editor-in-chief is Johannes Messinger.",
-            "verified": true
-          },
-          {
             "title": "Anoxygenic photosynthesis",
             "url": "https://en.wikipedia.org/wiki/Anoxygenic_photosynthesis",
             "source": "en.wikipedia.org",
             "snippet": "Anoxygenic photosynthesis is a special form of photosynthesis used by some bacteria, which differs from the better known oxygenic photosynthesis in plants and cyanobacteria in the reductant used and the byproduct generated.",
+            "verified": true
+          },
+          {
+            "title": "Photosynthesis Research",
+            "url": "https://en.wikipedia.org/wiki/Photosynthesis_Research",
+            "source": "en.wikipedia.org",
+            "snippet": "Photosynthesis Research is a quarterly peer-reviewed scientific journal covering various aspects of photosynthesis. It is published by Springer Science+Business Media on behalf of the International Society of Photosynthesis Research and was established in 1980. The editor-in-chief is Johannes Messinger.",
             "verified": true
           }
         ],
@@ -969,7 +1030,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 316,
+        "duration_ms": 244,
         "followUps": [
           "Tell me more about Photosynthesis",
           "What are the key facts about Photosynthesis?",
@@ -980,129 +1041,7 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 735
-    },
-    {
-      "id": "photosynthesis-details",
-      "query": "Tell me more",
-      "pass": true,
-      "response": {
-        "query": "Tell me more",
-        "answer": "Photosynthesis is a system of biological processes by which photopigment -bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy —typically from sunlight —into the chemical energy necessary to fuel their metabolism. [1]\n\nThe term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. [1]",
-        "results": [
-          {
-            "title": "Photosynthesis",
-            "url": "https://en.wikipedia.org/wiki/Photosynthesis",
-            "source": "en.wikipedia.org",
-            "snippet": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy—typically from sunlight—into the chemical energy necessary to fuel their metabolism. The term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds, typically carbohydrates like sugars, starches, phytoglycogen and cellulose. When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth.",
-            "verified": true
-          },
-          {
-            "title": "Artificial photosynthesis",
-            "url": "https://en.wikipedia.org/wiki/Artificial_photosynthesis",
-            "source": "en.wikipedia.org",
-            "snippet": "Artificial photosynthesis is a chemical process that biomimics the natural process of photosynthesis. The term artificial photosynthesis is used loosely, referring to any scheme for capturing and then storing energy from sunlight by producing a fuel, specifically a solar fuel. An advantage of artificial photosynthesis would be that the solar energy could be converted and stored. By contrast, using photovoltaic cells, sunlight is converted into electricity and then converted again into chemical energy for storage, with some necessary losses of energy associated with the second conversion. The byproducts of these reactions are environmentally friendly. Artificially photosynthesized fuel would be a carbon-neutral source of energy, but it has never been demonstrated in any practical sense. The economics of artificial photosynthesis are noncompetitive.",
-            "verified": true
-          },
-          {
-            "title": "Photosynthesis Research",
-            "url": "https://en.wikipedia.org/wiki/Photosynthesis_Research",
-            "source": "en.wikipedia.org",
-            "snippet": "Photosynthesis Research is a quarterly peer-reviewed scientific journal covering various aspects of photosynthesis. It is published by Springer Science+Business Media on behalf of the International Society of Photosynthesis Research and was established in 1980. The editor-in-chief is Johannes Messinger.",
-            "verified": true
-          },
-          {
-            "title": "Anoxygenic photosynthesis",
-            "url": "https://en.wikipedia.org/wiki/Anoxygenic_photosynthesis",
-            "source": "en.wikipedia.org",
-            "snippet": "Anoxygenic photosynthesis is a special form of photosynthesis used by some bacteria, which differs from the better known oxygenic photosynthesis in plants and cyanobacteria in the reductant used and the byproduct generated.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Photosynthesis",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/500px-Photosynthesis_en.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/330px-Photosynthesis_en.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 10,
-        "followUps": [
-          "Tell me more about Photosynthesis",
-          "What are the key facts about Photosynthesis?",
-          "How does Photosynthesis work?"
-        ],
-        "topic": "Photosynthesis",
-        "search_query": "Photosynthesis: Tell me more",
-        "context_used": true,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 192
-    },
-    {
-      "id": "switch-saturn",
-      "query": "And what about Saturn?",
-      "pass": true,
-      "response": {
-        "query": "And what about Saturn?",
-        "answer": "Saturn is the sixth planet from the Sun, and is the second largest planet in the Solar System, after Jupiter. [1]\n\nEven though Saturn is almost as big as Jupiter, it has less than a third of its mass. [1]",
-        "results": [
-          {
-            "title": "Saturn",
-            "url": "https://en.wikipedia.org/wiki/Saturn",
-            "source": "en.wikipedia.org",
-            "snippet": "Saturn is the sixth planet from the Sun, and is the second largest planet in the Solar System, after Jupiter. It is a gas giant, with an average radius of about 9 times that of Earth. It has an eighth of the average density of Earth, but is over 95 times more massive. Even though Saturn is almost as big as Jupiter, it has less than a third of its mass. Saturn orbits the Sun at a distance of 9.59 AU (1,434 million km), with an orbital period of 29.45 years.",
-            "verified": true
-          },
-          {
-            "title": "Saturn V",
-            "url": "https://en.wikipedia.org/wiki/Saturn_V",
-            "source": "en.wikipedia.org",
-            "snippet": "The Saturn V is a retired American super heavy-lift launch vehicle developed by NASA under the Apollo program for human exploration of the Moon. The rocket was human-rated, had three stages, and was liquid-fueled. Thirteen Saturn V vehicles were launched, from 1967 to 1973, all from Kennedy Space Center Launch Complex 39, nine of which launched 24 astronauts toward the Moon from Apollo 8 to Apollo 17. Its final launch was Skylab, the first American space station, converted from its own third stage.",
-            "verified": true
-          },
-          {
-            "title": "Sega Saturn",
-            "url": "https://en.wikipedia.org/wiki/Sega_Saturn",
-            "source": "en.wikipedia.org",
-            "snippet": "The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994, in Japan, May 11, 1995, in North America, and July 8, 1995, in Europe. Part of the fifth generation of video game consoles, it is the successor to the successful Genesis. The Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, including several ports of arcade games and original games.",
-            "verified": true
-          },
-          {
-            "title": "Saturn Awards",
-            "url": "https://en.wikipedia.org/wiki/Saturn_Awards",
-            "source": "en.wikipedia.org",
-            "snippet": "The Saturn Awards are American awards presented annually by the Academy of Science Fiction, Fantasy and Horror Films. The awards were created to honor science fiction, fantasy, and horror in film, but have since grown to reward other films belonging to genre fiction, as well as television and home media releases. The Saturn Awards were created in 1973 and were originally referred to as Golden Scrolls.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Saturn",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/3840px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/330px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Saturn",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 998,
-        "followUps": [
-          "Tell me more about Saturn",
-          "What are the key facts about Saturn?",
-          "How does Saturn work?"
-        ],
-        "topic": "Saturn",
-        "search_query": "And what about Saturn?",
-        "context_used": false,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 1186
+      "duration_ms": 504
     },
     {
       "id": "python-definition",
@@ -1152,7 +1091,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 1149,
+        "duration_ms": 312,
         "followUps": [
           "Tell me more about Python (programming language)",
           "What are the key facts about Python (programming language)?",
@@ -1163,7 +1102,68 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1320
+      "duration_ms": 540
+    },
+    {
+      "id": "photosynthesis-details",
+      "query": "Tell me more",
+      "pass": true,
+      "response": {
+        "query": "Tell me more",
+        "answer": "Photosynthesis is a system of biological processes by which photopigment -bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy —typically from sunlight —into the chemical energy necessary to fuel their metabolism. [1]\n\nThe term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. [1]",
+        "results": [
+          {
+            "title": "Photosynthesis",
+            "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+            "source": "en.wikipedia.org",
+            "snippet": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy—typically from sunlight—into the chemical energy necessary to fuel their metabolism. The term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds, typically carbohydrates like sugars, starches, phytoglycogen and cellulose. When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth.",
+            "verified": true
+          },
+          {
+            "title": "Artificial photosynthesis",
+            "url": "https://en.wikipedia.org/wiki/Artificial_photosynthesis",
+            "source": "en.wikipedia.org",
+            "snippet": "Artificial photosynthesis is a chemical process that biomimics the natural process of photosynthesis. The term artificial photosynthesis is used loosely, referring to any scheme for capturing and then storing energy from sunlight by producing a fuel, specifically a solar fuel. An advantage of artificial photosynthesis would be that the solar energy could be converted and stored. By contrast, using photovoltaic cells, sunlight is converted into electricity and then converted again into chemical energy for storage, with some necessary losses of energy associated with the second conversion. The byproducts of these reactions are environmentally friendly. Artificially photosynthesized fuel would be a carbon-neutral source of energy, but it has never been demonstrated in any practical sense. The economics of artificial photosynthesis are noncompetitive.",
+            "verified": true
+          },
+          {
+            "title": "Anoxygenic photosynthesis",
+            "url": "https://en.wikipedia.org/wiki/Anoxygenic_photosynthesis",
+            "source": "en.wikipedia.org",
+            "snippet": "Anoxygenic photosynthesis is a special form of photosynthesis used by some bacteria, which differs from the better known oxygenic photosynthesis in plants and cyanobacteria in the reductant used and the byproduct generated.",
+            "verified": true
+          },
+          {
+            "title": "Photosynthesis Research",
+            "url": "https://en.wikipedia.org/wiki/Photosynthesis_Research",
+            "source": "en.wikipedia.org",
+            "snippet": "Photosynthesis Research is a quarterly peer-reviewed scientific journal covering various aspects of photosynthesis. It is published by Springer Science+Business Media on behalf of the International Society of Photosynthesis Research and was established in 1980. The editor-in-chief is Johannes Messinger.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Photosynthesis",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/500px-Photosynthesis_en.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Photosynthesis_en.svg/330px-Photosynthesis_en.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Photosynthesis",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 8,
+        "followUps": [
+          "Tell me more about Photosynthesis",
+          "What are the key facts about Photosynthesis?",
+          "How does Photosynthesis work?"
+        ],
+        "topic": "Photosynthesis",
+        "search_query": "Photosynthesis: Tell me more",
+        "context_used": true,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 257
     },
     {
       "id": "einstein-definition",
@@ -1227,7 +1227,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 1082,
+        "duration_ms": 318,
         "followUps": [
           "Tell me more about Albert Einstein",
           "What are the key facts about Albert Einstein?",
@@ -1238,7 +1238,129 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1267
+      "duration_ms": 664
+    },
+    {
+      "id": "python-creator",
+      "query": "Who created it?",
+      "pass": true,
+      "response": {
+        "query": "Who created it?",
+        "answer": "Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands. [1]",
+        "results": [
+          {
+            "title": "Python (programming language)",
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "source": "en.wikipedia.org",
+            "snippet": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.",
+            "verified": true
+          },
+          {
+            "title": "Outline of the Python programming language",
+            "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language",
+            "source": "en.wikipedia.org",
+            "snippet": "The following outline is provided as an overview of and topical guide to Python:",
+            "verified": true
+          },
+          {
+            "title": "Mojo (programming language)",
+            "url": "https://en.wikipedia.org/wiki/Mojo_(programming_language)",
+            "source": "en.wikipedia.org",
+            "snippet": "Mojo is a programming language for Linux and macOS. It is a system programming language with semantics inspired by Rust such as static typing and a borrow checker, but with syntax based on Python. It was originally intended to be a superset of Python, but this goal has been either abandoned or postponed indefinitely as of March 2026. In May 2026, Modular launched a website for the language and in August 2026 Modular released Mojo 1.0, declaring it free and open-source software.",
+            "verified": true
+          },
+          {
+            "title": "History of Python",
+            "url": "https://en.wikipedia.org/wiki/History_of_Python",
+            "source": "en.wikipedia.org",
+            "snippet": "The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum was Python's principal author and had a central role in deciding the direction of Python until stepping down as leader on July 12, 2018. Python was named after the BBC TV show Monty Python's Flying Circus.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Python (programming language)",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/120px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/330px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 560,
+        "followUps": [
+          "Tell me more about Python (programming language)",
+          "What are the key facts about Python (programming language)?",
+          "How does Python (programming language) work?"
+        ],
+        "topic": "Python (programming language)",
+        "search_query": "Who created Python (programming language)?",
+        "context_used": true,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 894
+    },
+    {
+      "id": "python-applications",
+      "query": "What are its applications?",
+      "pass": true,
+      "response": {
+        "query": "What are its applications?",
+        "answer": "This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. [1]\n\nFor Internet-facing applications, many standard formats and protocols such as MIME and HTTP are supported. [1]",
+        "results": [
+          {
+            "title": "Python (programming language)",
+            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "source": "en.wikipedia.org",
+            "snippet": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.",
+            "verified": true
+          },
+          {
+            "title": "Outline of the Python programming language",
+            "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language",
+            "source": "en.wikipedia.org",
+            "snippet": "The following outline is provided as an overview of and topical guide to Python:",
+            "verified": true
+          },
+          {
+            "title": "Mojo (programming language)",
+            "url": "https://en.wikipedia.org/wiki/Mojo_(programming_language)",
+            "source": "en.wikipedia.org",
+            "snippet": "Mojo is a programming language for Linux and macOS. It is a system programming language with semantics inspired by Rust such as static typing and a borrow checker, but with syntax based on Python. It was originally intended to be a superset of Python, but this goal has been either abandoned or postponed indefinitely as of March 2026. In May 2026, Modular launched a website for the language and in August 2026 Modular released Mojo 1.0, declaring it free and open-source software.",
+            "verified": true
+          },
+          {
+            "title": "History of Python",
+            "url": "https://en.wikipedia.org/wiki/History_of_Python",
+            "source": "en.wikipedia.org",
+            "snippet": "The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum was Python's principal author and had a central role in deciding the direction of Python until stepping down as leader on July 12, 2018. Python was named after the BBC TV show Monty Python's Flying Circus.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Python (programming language)",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/120px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/330px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 216,
+        "followUps": [
+          "Tell me more about Python (programming language)",
+          "What are the key facts about Python (programming language)?",
+          "How does Python (programming language) work?"
+        ],
+        "topic": "Python (programming language)",
+        "search_query": "What are Python (programming language)'s applications?",
+        "context_used": true,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 512
     },
     {
       "id": "einstein-place",
@@ -1302,7 +1424,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 81,
+        "duration_ms": 707,
         "followUps": [
           "Tell me more about Albert Einstein",
           "What are the key facts about Albert Einstein?",
@@ -1313,7 +1435,82 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 288
+      "duration_ms": 938
+    },
+    {
+      "id": "taj-definition",
+      "query": "What is the Taj Mahal?",
+      "pass": true,
+      "response": {
+        "query": "What is the Taj Mahal?",
+        "answer": "The Taj Mahal (/ ˌ t ɑː dʒ m ə ˈ h ɑː l, ˌ t ɑː ʒ -/ TAHJ mə- HAHL, TAHZH - ⁠;.mw-parser-output.IPA-label-small{font-size:85%}.mw-parser-output.references.IPA-label-small,.mw-parser-output.infobox.IPA-label-small,.mw-parser-output.navbox.IPA-label-small{font-size:100%} Hindustani: [ t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l ]; literal translation</span>\"}]],\"parts\":[{\"template\":{\"target\":{\"wt\":\"lit\",\"href\":\"./Template:Lit\"},\"params\":{\"1\":{\"wt\":\"Crown of the Palace\"}},\"i\":0}}]}' id=\"mwJg\">lit. ' Crown of the Palace ') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. [1]\n\nIt was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (reigned</span>\"}]]}'>r. [1]\n\nThe Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹ 32 million, which in 2015 would be approximately ₹ 52.8 billion (US$ 827 million). [1]",
+        "results": [
+          {
+            "title": "Taj Mahal",
+            "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+            "source": "en.wikipedia.org",
+            "snippet": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan, to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
+            "verified": true
+          },
+          {
+            "title": "Taj Mahal (musician)",
+            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
+            "source": "en.wikipedia.org",
+            "snippet": "Henry St. Claire Fredericks Jr., better known by his stage name Taj Mahal, is an American blues musician. He plays the guitar, piano, banjo, harmonica, and many other instruments along with singing and whistling, often incorporating elements of world music into his work. Mahal has done much to reshape the definition and scope of blues music over the course of his more than 50-year career by fusing it with nontraditional forms, including sounds from the Caribbean, Africa, India, Hawaii, and the South Pacific.",
+            "verified": true
+          },
+          {
+            "title": "Taj Mahal Palace Hotel",
+            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
+            "source": "en.wikipedia.org",
+            "snippet": "The Taj Mahal Palace is a heritage, five-star, luxury hotel in the Colaba area of Mumbai, Maharashtra, India, situated next to the Gateway of India. Built in the Indo-Saracenic style, it opened in 1903 as the Taj Mahal Hotel, and has historically often been known simply as \"The Taj\". The hotel is named after the Taj Mahal, which is located in the city of Agra, approximately 1,050 kilometres (650 mi) from Mumbai. It has been considered one of the finest hotels in the East since the time of the British Raj. It is currently owned and managed by the Indian Hotels Company Limited (IHCL), a Tata Group company. The hotel was one of the main targets in the 2008 Mumbai attacks.",
+            "verified": true
+          },
+          {
+            "title": "Origins and architecture of the Taj Mahal",
+            "url": "https://en.wikipedia.org/wiki/Origins_and_architecture_of_the_Taj_Mahal",
+            "source": "en.wikipedia.org",
+            "snippet": "The Taj Mahal represents the finest and most sophisticated example of Indo-Islamic architecture. Its origin lies in the moving circumstances of its commission and the culture and history of an Islamic Mughal Empire's rule of large parts of India. The distraught Mughal Emperor Shah Jahan commissioned the project upon the death of one of his favorite wives Mumtaz Mahal.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Taj Mahal",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+            "source": "Wikipedia"
+          },
+          {
+            "title": "Taj Mahal (musician)",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Taj_Mahal_%28musician%29.jpg/330px-Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
+            "source": "Wikipedia"
+          },
+          {
+            "title": "Taj Mahal Palace Hotel",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/3840px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/330px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 640,
+        "followUps": [
+          "Tell me more about Taj Mahal",
+          "What are the key facts about Taj Mahal?",
+          "How does Taj Mahal work?"
+        ],
+        "topic": "Taj Mahal",
+        "search_query": "What is the Taj Mahal?",
+        "context_used": false,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 920
     },
     {
       "id": "einstein-date",
@@ -1377,7 +1574,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 13,
+        "duration_ms": 223,
         "followUps": [
           "Tell me more about Albert Einstein",
           "What are the key facts about Albert Einstein?",
@@ -1388,204 +1585,7 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 209
-    },
-    {
-      "id": "python-creator",
-      "query": "Who created it?",
-      "pass": true,
-      "response": {
-        "query": "Who created it?",
-        "answer": "Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands. [1]",
-        "results": [
-          {
-            "title": "Python (programming language)",
-            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
-            "source": "en.wikipedia.org",
-            "snippet": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.",
-            "verified": true
-          },
-          {
-            "title": "Outline of the Python programming language",
-            "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language",
-            "source": "en.wikipedia.org",
-            "snippet": "The following outline is provided as an overview of and topical guide to Python:",
-            "verified": true
-          },
-          {
-            "title": "Mojo (programming language)",
-            "url": "https://en.wikipedia.org/wiki/Mojo_(programming_language)",
-            "source": "en.wikipedia.org",
-            "snippet": "Mojo is a programming language for Linux and macOS. It is a system programming language with semantics inspired by Rust such as static typing and a borrow checker, but with syntax based on Python. It was originally intended to be a superset of Python, but this goal has been either abandoned or postponed indefinitely as of March 2026. In May 2026, Modular launched a website for the language and in August 2026 Modular released Mojo 1.0, declaring it free and open-source software.",
-            "verified": true
-          },
-          {
-            "title": "History of Python",
-            "url": "https://en.wikipedia.org/wiki/History_of_Python",
-            "source": "en.wikipedia.org",
-            "snippet": "The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum was Python's principal author and had a central role in deciding the direction of Python until stepping down as leader on July 12, 2018. Python was named after the BBC TV show Monty Python's Flying Circus.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Python (programming language)",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/120px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/330px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 616,
-        "followUps": [
-          "Tell me more about Python (programming language)",
-          "What are the key facts about Python (programming language)?",
-          "How does Python (programming language) work?"
-        ],
-        "topic": "Python (programming language)",
-        "search_query": "Who created Python (programming language)?",
-        "context_used": true,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 801
-    },
-    {
-      "id": "python-applications",
-      "query": "What are its applications?",
-      "pass": true,
-      "response": {
-        "query": "What are its applications?",
-        "answer": "This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. [1]\n\nFor Internet-facing applications, many standard formats and protocols such as MIME and HTTP are supported. [1]",
-        "results": [
-          {
-            "title": "Python (programming language)",
-            "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
-            "source": "en.wikipedia.org",
-            "snippet": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.",
-            "verified": true
-          },
-          {
-            "title": "Outline of the Python programming language",
-            "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language",
-            "source": "en.wikipedia.org",
-            "snippet": "The following outline is provided as an overview of and topical guide to Python:",
-            "verified": true
-          },
-          {
-            "title": "Mojo (programming language)",
-            "url": "https://en.wikipedia.org/wiki/Mojo_(programming_language)",
-            "source": "en.wikipedia.org",
-            "snippet": "Mojo is a programming language for Linux and macOS. It is a system programming language with semantics inspired by Rust such as static typing and a borrow checker, but with syntax based on Python. It was originally intended to be a superset of Python, but this goal has been either abandoned or postponed indefinitely as of March 2026. In May 2026, Modular launched a website for the language and in August 2026 Modular released Mojo 1.0, declaring it free and open-source software.",
-            "verified": true
-          },
-          {
-            "title": "History of Python",
-            "url": "https://en.wikipedia.org/wiki/History_of_Python",
-            "source": "en.wikipedia.org",
-            "snippet": "The programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum was Python's principal author and had a central role in deciding the direction of Python until stepping down as leader on July 12, 2018. Python was named after the BBC TV show Monty Python's Flying Circus.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Python (programming language)",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/120px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/330px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 8,
-        "followUps": [
-          "Tell me more about Python (programming language)",
-          "What are the key facts about Python (programming language)?",
-          "How does Python (programming language) work?"
-        ],
-        "topic": "Python (programming language)",
-        "search_query": "What are Python (programming language)'s applications?",
-        "context_used": true,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 182
-    },
-    {
-      "id": "taj-definition",
-      "query": "What is the Taj Mahal?",
-      "pass": true,
-      "response": {
-        "query": "What is the Taj Mahal?",
-        "answer": "The Taj Mahal (/ ˌ t ɑː dʒ m ə ˈ h ɑː l, ˌ t ɑː ʒ -/ TAHJ mə- HAHL, TAHZH - ⁠;.mw-parser-output.IPA-label-small{font-size:85%}.mw-parser-output.references.IPA-label-small,.mw-parser-output.infobox.IPA-label-small,.mw-parser-output.navbox.IPA-label-small{font-size:100%} Hindustani: [ t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l ]; literal translation</span>\"}]],\"parts\":[{\"template\":{\"target\":{\"wt\":\"lit\",\"href\":\"./Template:Lit\"},\"params\":{\"1\":{\"wt\":\"Crown of the Palace\"}},\"i\":0}}]}' id=\"mwJg\">lit. ' Crown of the Palace ') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. [1]\n\nIt was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (reigned</span>\"}]]}'>r. [1]\n\nThe Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹ 32 million, which in 2015 would be approximately ₹ 52.8 billion (US$ 827 million). [1]",
-        "results": [
-          {
-            "title": "Taj Mahal",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
-            "source": "en.wikipedia.org",
-            "snippet": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan, to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
-            "verified": true
-          },
-          {
-            "title": "Taj Mahal (musician)",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
-            "source": "en.wikipedia.org",
-            "snippet": "Henry St. Claire Fredericks Jr., better known by his stage name Taj Mahal, is an American blues musician. He plays the guitar, piano, banjo, harmonica, and many other instruments along with singing and whistling, often incorporating elements of world music into his work. Mahal has done much to reshape the definition and scope of blues music over the course of his more than 50-year career by fusing it with nontraditional forms, including sounds from the Caribbean, Africa, India, Hawaii, and the South Pacific.",
-            "verified": true
-          },
-          {
-            "title": "Taj Mahal Palace Hotel",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
-            "source": "en.wikipedia.org",
-            "snippet": "The Taj Mahal Palace is a heritage, five-star, luxury hotel in the Colaba area of Mumbai, Maharashtra, India, situated next to the Gateway of India. Built in the Indo-Saracenic style, it opened in 1903 as the Taj Mahal Hotel, and has historically often been known simply as \"The Taj\". The hotel is named after the Taj Mahal, which is located in the city of Agra, approximately 1,050 kilometres (650 mi) from Mumbai. It has been considered one of the finest hotels in the East since the time of the British Raj. It is currently owned and managed by the Indian Hotels Company Limited (IHCL), a Tata Group company. The hotel was one of the main targets in the 2008 Mumbai attacks.",
-            "verified": true
-          },
-          {
-            "title": "Taj Mahal (1999 film)",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_(1999_film)",
-            "source": "en.wikipedia.org",
-            "snippet": "Taj Mahal is a 1999 Indian Tamil-language romantic drama film directed by Bharathiraja. The film stars his son, Manoj, and Riya Sen in their debut as lead actors, with a supporting ensemble cast including Revathi, Radhika, and Ranjitha. The film was written by Mani Ratnam, the music was composed by A. R. Rahman and B. Kannan handled the camera. The story revolves around two clashing communities and two lovers caught in the vortex of their rivalry. The film was released during Diwali in 1999 and fared poorly at the box office.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Taj Mahal",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal",
-            "source": "Wikipedia"
-          },
-          {
-            "title": "Taj Mahal (musician)",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Taj_Mahal_%28musician%29.jpg/330px-Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
-            "source": "Wikipedia"
-          },
-          {
-            "title": "Taj Mahal Palace Hotel",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/3840px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/330px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 1002,
-        "followUps": [
-          "Tell me more about Taj Mahal",
-          "What are the key facts about Taj Mahal?",
-          "How does Taj Mahal work?"
-        ],
-        "topic": "Taj Mahal",
-        "search_query": "What is the Taj Mahal?",
-        "context_used": false,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 1186
+      "duration_ms": 497
     },
     {
       "id": "taj-builder",
@@ -1617,10 +1617,10 @@
             "verified": true
           },
           {
-            "title": "Taj Mahal (1999 film)",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_(1999_film)",
+            "title": "Origins and architecture of the Taj Mahal",
+            "url": "https://en.wikipedia.org/wiki/Origins_and_architecture_of_the_Taj_Mahal",
             "source": "en.wikipedia.org",
-            "snippet": "Taj Mahal is a 1999 Indian Tamil-language romantic drama film directed by Bharathiraja. The film stars his son, Manoj, and Riya Sen in their debut as lead actors, with a supporting ensemble cast including Revathi, Radhika, and Ranjitha. The film was written by Mani Ratnam, the music was composed by A. R. Rahman and B. Kannan handled the camera. The story revolves around two clashing communities and two lovers caught in the vortex of their rivalry. The film was released during Diwali in 1999 and fared poorly at the box office.",
+            "snippet": "The Taj Mahal represents the finest and most sophisticated example of Indo-Islamic architecture. Its origin lies in the moving circumstances of its commission and the culture and history of an Islamic Mughal Empire's rule of large parts of India. The distraught Mughal Emperor Shah Jahan commissioned the project upon the death of one of his favorite wives Mumtaz Mahal.",
             "verified": true
           }
         ],
@@ -1649,7 +1649,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 7,
+        "duration_ms": 6,
         "followUps": [
           "Tell me more about Taj Mahal",
           "What are the key facts about Taj Mahal?",
@@ -1660,7 +1660,82 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 184
+      "duration_ms": 308
+    },
+    {
+      "id": "taj-place",
+      "query": "Where is it located?",
+      "pass": true,
+      "response": {
+        "query": "Where is it located?",
+        "answer": "The Taj Mahal (/ ˌ t ɑː dʒ m ə ˈ h ɑː l, ˌ t ɑː ʒ -/ TAHJ mə- HAHL, TAHZH - ⁠;.mw-parser-output.IPA-label-small{font-size:85%}.mw-parser-output.references.IPA-label-small,.mw-parser-output.infobox.IPA-label-small,.mw-parser-output.navbox.IPA-label-small{font-size:100%} Hindustani: [ t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l ]; literal translation</span>\"}]],\"parts\":[{\"template\":{\"target\":{\"wt\":\"lit\",\"href\":\"./Template:Lit\"},\"params\":{\"1\":{\"wt\":\"Crown of the Palace\"}},\"i\":0}}]}' id=\"mwJg\">lit. ' Crown of the Palace ') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. [1]\n\nThe Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹ 32 million, which in 2015 would be approximately ₹ 52.8 billion (US$ 827 million). [1]",
+        "results": [
+          {
+            "title": "Taj Mahal",
+            "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+            "source": "en.wikipedia.org",
+            "snippet": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan, to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
+            "verified": true
+          },
+          {
+            "title": "Taj Mahal (musician)",
+            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
+            "source": "en.wikipedia.org",
+            "snippet": "Henry St. Claire Fredericks Jr., better known by his stage name Taj Mahal, is an American blues musician. He plays the guitar, piano, banjo, harmonica, and many other instruments along with singing and whistling, often incorporating elements of world music into his work. Mahal has done much to reshape the definition and scope of blues music over the course of his more than 50-year career by fusing it with nontraditional forms, including sounds from the Caribbean, Africa, India, Hawaii, and the South Pacific.",
+            "verified": true
+          },
+          {
+            "title": "Taj Mahal Palace Hotel",
+            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
+            "source": "en.wikipedia.org",
+            "snippet": "The Taj Mahal Palace is a heritage, five-star, luxury hotel in the Colaba area of Mumbai, Maharashtra, India, situated next to the Gateway of India. Built in the Indo-Saracenic style, it opened in 1903 as the Taj Mahal Hotel, and has historically often been known simply as \"The Taj\". The hotel is named after the Taj Mahal, which is located in the city of Agra, approximately 1,050 kilometres (650 mi) from Mumbai. It has been considered one of the finest hotels in the East since the time of the British Raj. It is currently owned and managed by the Indian Hotels Company Limited (IHCL), a Tata Group company. The hotel was one of the main targets in the 2008 Mumbai attacks.",
+            "verified": true
+          },
+          {
+            "title": "Origins and architecture of the Taj Mahal",
+            "url": "https://en.wikipedia.org/wiki/Origins_and_architecture_of_the_Taj_Mahal",
+            "source": "en.wikipedia.org",
+            "snippet": "The Taj Mahal represents the finest and most sophisticated example of Indo-Islamic architecture. Its origin lies in the moving circumstances of its commission and the culture and history of an Islamic Mughal Empire's rule of large parts of India. The distraught Mughal Emperor Shah Jahan commissioned the project upon the death of one of his favorite wives Mumtaz Mahal.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "Taj Mahal",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+            "source": "Wikipedia"
+          },
+          {
+            "title": "Taj Mahal (musician)",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Taj_Mahal_%28musician%29.jpg/330px-Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
+            "source": "Wikipedia"
+          },
+          {
+            "title": "Taj Mahal Palace Hotel",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/3840px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/330px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 265,
+        "followUps": [
+          "Tell me more about Taj Mahal",
+          "What are the key facts about Taj Mahal?",
+          "How does Taj Mahal work?"
+        ],
+        "topic": "Taj Mahal",
+        "search_query": "Where is Taj Mahal located?",
+        "context_used": true,
+        "answer_mode": "extractive"
+      },
+      "duration_ms": 505
     },
     {
       "id": "japan-definition",
@@ -1710,7 +1785,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 916,
+        "duration_ms": 591,
         "followUps": [
           "Tell me more about Japan",
           "What are the key facts about Japan?",
@@ -1721,82 +1796,67 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1111
+      "duration_ms": 824
     },
     {
-      "id": "taj-place",
-      "query": "Where is it located?",
+      "id": "remember-name",
+      "query": "My name is Rahul",
       "pass": true,
       "response": {
-        "query": "Where is it located?",
-        "answer": "The Taj Mahal (/ ˌ t ɑː dʒ m ə ˈ h ɑː l, ˌ t ɑː ʒ -/ TAHJ mə- HAHL, TAHZH - ⁠;.mw-parser-output.IPA-label-small{font-size:85%}.mw-parser-output.references.IPA-label-small,.mw-parser-output.infobox.IPA-label-small,.mw-parser-output.navbox.IPA-label-small{font-size:100%} Hindustani: [ t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l ]; literal translation</span>\"}]],\"parts\":[{\"template\":{\"target\":{\"wt\":\"lit\",\"href\":\"./Template:Lit\"},\"params\":{\"1\":{\"wt\":\"Crown of the Palace\"}},\"i\":0}}]}' id=\"mwJg\">lit. ' Crown of the Palace ') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. [1]\n\nThe Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹ 32 million, which in 2015 would be approximately ₹ 52.8 billion (US$ 827 million). [1]",
-        "results": [
-          {
-            "title": "Taj Mahal",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
-            "source": "en.wikipedia.org",
-            "snippet": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan, to house the tomb of his late wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.",
-            "verified": true
-          },
-          {
-            "title": "Taj Mahal (musician)",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
-            "source": "en.wikipedia.org",
-            "snippet": "Henry St. Claire Fredericks Jr., better known by his stage name Taj Mahal, is an American blues musician. He plays the guitar, piano, banjo, harmonica, and many other instruments along with singing and whistling, often incorporating elements of world music into his work. Mahal has done much to reshape the definition and scope of blues music over the course of his more than 50-year career by fusing it with nontraditional forms, including sounds from the Caribbean, Africa, India, Hawaii, and the South Pacific.",
-            "verified": true
-          },
-          {
-            "title": "Taj Mahal Palace Hotel",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
-            "source": "en.wikipedia.org",
-            "snippet": "The Taj Mahal Palace is a heritage, five-star, luxury hotel in the Colaba area of Mumbai, Maharashtra, India, situated next to the Gateway of India. Built in the Indo-Saracenic style, it opened in 1903 as the Taj Mahal Hotel, and has historically often been known simply as \"The Taj\". The hotel is named after the Taj Mahal, which is located in the city of Agra, approximately 1,050 kilometres (650 mi) from Mumbai. It has been considered one of the finest hotels in the East since the time of the British Raj. It is currently owned and managed by the Indian Hotels Company Limited (IHCL), a Tata Group company. The hotel was one of the main targets in the 2008 Mumbai attacks.",
-            "verified": true
-          },
-          {
-            "title": "Taj Mahal (1999 film)",
-            "url": "https://en.wikipedia.org/wiki/Taj_Mahal_(1999_film)",
-            "source": "en.wikipedia.org",
-            "snippet": "Taj Mahal is a 1999 Indian Tamil-language romantic drama film directed by Bharathiraja. The film stars his son, Manoj, and Riya Sen in their debut as lead actors, with a supporting ensemble cast including Revathi, Radhika, and Ranjitha. The film was written by Mani Ratnam, the music was composed by A. R. Rahman and B. Kannan handled the camera. The story revolves around two clashing communities and two lovers caught in the vortex of their rivalry. The film was released during Diwali in 1999 and fared poorly at the box office.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "Taj Mahal",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/330px-Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal",
-            "source": "Wikipedia"
-          },
-          {
-            "title": "Taj Mahal (musician)",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Taj_Mahal_%28musician%29.jpg/330px-Taj_Mahal_%28musician%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_(musician)",
-            "source": "Wikipedia"
-          },
-          {
-            "title": "Taj Mahal Palace Hotel",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/3840px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/330px-Taj_Mahal_Palace_Hotel_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 31,
-        "followUps": [
-          "Tell me more about Taj Mahal",
-          "What are the key facts about Taj Mahal?",
-          "How does Taj Mahal work?"
-        ],
-        "topic": "Taj Mahal",
-        "search_query": "Where is Taj Mahal located?",
-        "context_used": true,
-        "answer_mode": "extractive"
+        "query": "My name is Rahul",
+        "answer": "Got it — I'll call you Rahul during this conversation.",
+        "results": [],
+        "images": [],
+        "source_mode": "conversation",
+        "verified_sources": 0,
+        "duration_ms": 0,
+        "followUps": [],
+        "topic": "My name is Rahul",
+        "search_query": "My name is Rahul",
+        "context_used": false,
+        "answer_mode": "conversation"
       },
-      "duration_ms": 215
+      "duration_ms": 294
+    },
+    {
+      "id": "recall-name",
+      "query": "What is my name?",
+      "pass": true,
+      "response": {
+        "query": "What is my name?",
+        "answer": "You told me your name is Rahul.",
+        "results": [],
+        "images": [],
+        "source_mode": "conversation",
+        "verified_sources": 0,
+        "duration_ms": 0,
+        "followUps": [],
+        "topic": "My name is Rahul",
+        "search_query": "What is my name?",
+        "context_used": true,
+        "answer_mode": "conversation"
+      },
+      "duration_ms": 326
+    },
+    {
+      "id": "recall-question",
+      "query": "What was my first question?",
+      "pass": true,
+      "response": {
+        "query": "What was my first question?",
+        "answer": "Your first available question was: “My name is Rahul”.",
+        "results": [],
+        "images": [],
+        "source_mode": "conversation",
+        "verified_sources": 0,
+        "duration_ms": 0,
+        "followUps": [],
+        "topic": "My name is Rahul",
+        "search_query": "What was my first question?",
+        "context_used": true,
+        "answer_mode": "conversation"
+      },
+      "duration_ms": 263
     },
     {
       "id": "japan-capital",
@@ -1846,7 +1906,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 13,
+        "duration_ms": 684,
         "followUps": [
           "Tell me more about Japan",
           "What are the key facts about Japan?",
@@ -1857,128 +1917,7 @@
         "context_used": true,
         "answer_mode": "extractive"
       },
-      "duration_ms": 190
-    },
-    {
-      "id": "remember-name",
-      "query": "My name is Rahul",
-      "pass": true,
-      "response": {
-        "query": "My name is Rahul",
-        "answer": "Got it — I'll call you Rahul during this conversation.",
-        "results": [],
-        "images": [],
-        "source_mode": "conversation",
-        "verified_sources": 0,
-        "duration_ms": 0,
-        "followUps": [],
-        "topic": "My name is Rahul",
-        "search_query": "My name is Rahul",
-        "context_used": false,
-        "answer_mode": "conversation"
-      },
-      "duration_ms": 541
-    },
-    {
-      "id": "recall-name",
-      "query": "What is my name?",
-      "pass": true,
-      "response": {
-        "query": "What is my name?",
-        "answer": "You told me your name is Rahul.",
-        "results": [],
-        "images": [],
-        "source_mode": "conversation",
-        "verified_sources": 0,
-        "duration_ms": 0,
-        "followUps": [],
-        "topic": "My name is Rahul",
-        "search_query": "What is my name?",
-        "context_used": true,
-        "answer_mode": "conversation"
-      },
-      "duration_ms": 165
-    },
-    {
-      "id": "recall-question",
-      "query": "What was my first question?",
-      "pass": true,
-      "response": {
-        "query": "What was my first question?",
-        "answer": "Your first available question was: “My name is Rahul”.",
-        "results": [],
-        "images": [],
-        "source_mode": "conversation",
-        "verified_sources": 0,
-        "duration_ms": 0,
-        "followUps": [],
-        "topic": "My name is Rahul",
-        "search_query": "What was my first question?",
-        "context_used": true,
-        "answer_mode": "conversation"
-      },
-      "duration_ms": 219
-    },
-    {
-      "id": "switch-france",
-      "query": "What about France?",
-      "pass": true,
-      "response": {
-        "query": "What about France?",
-        "answer": "France, officially the French Republic, is a country primarily located in Western Europe. [1]\n\nMetropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. [1]",
-        "results": [
-          {
-            "title": "France",
-            "url": "https://en.wikipedia.org/wiki/France",
-            "source": "en.wikipedia.org",
-            "snippet": "France, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Metropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea. Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi), with a total population estimated at over 69.1 million in 2026. Its capital, largest city and main cultural and economic centre is Paris, with a metropolitan population of over 13 million.",
-            "verified": true
-          },
-          {
-            "title": "French of France",
-            "url": "https://en.wikipedia.org/wiki/French_of_France",
-            "source": "en.wikipedia.org",
-            "snippet": "French of France is the predominant variety of the French language in France, Andorra and Monaco, in its formal and informal registers. It has, for a long time, been associated with Standard French. It is now seen as a variety of French alongside Acadian French, Belgian French, Canadian/Quebec French, Swiss French, etc.",
-            "verified": true
-          },
-          {
-            "title": "Vichy France",
-            "url": "https://en.wikipedia.org/wiki/Vichy_France",
-            "source": "en.wikipedia.org",
-            "snippet": "Vichy France, also known as the Pétainist regime and Pétainist France, officially the French State, was a French rump state headed by Marshal Philippe Pétain during World War II, established as a result of German victory in the Battle of France. It was named after its seat of government, the city of Vichy.",
-            "verified": true
-          },
-          {
-            "title": "New France",
-            "url": "https://en.wikipedia.org/wiki/New_France",
-            "source": "en.wikipedia.org",
-            "snippet": "New France was the territory colonized by France in mainland North America, beginning with the exploration of the Gulf of Saint Lawrence by Jacques Cartier in 1534 and ending with the cession of New France to Great Britain and Spain in 1763 under the Treaty of Paris.",
-            "verified": true
-          }
-        ],
-        "images": [
-          {
-            "title": "France",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/960px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/330px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-            "source_url": "https://en.wikipedia.org/wiki/France",
-            "source": "Wikipedia"
-          }
-        ],
-        "source_mode": "wikipedia",
-        "verified_sources": 4,
-        "duration_ms": 1430,
-        "followUps": [
-          "Tell me more about France",
-          "What are the key facts about France?",
-          "How does France work?"
-        ],
-        "topic": "France",
-        "search_query": "What about France?",
-        "context_used": false,
-        "answer_mode": "extractive"
-      },
-      "duration_ms": 1938
+      "duration_ms": 913
     },
     {
       "id": "shortening-source",
@@ -2028,7 +1967,7 @@
         ],
         "source_mode": "wikipedia",
         "verified_sources": 4,
-        "duration_ms": 953,
+        "duration_ms": 377,
         "followUps": [
           "Tell me more about Gravity",
           "What are the key facts about Gravity?",
@@ -2039,27 +1978,68 @@
         "context_used": false,
         "answer_mode": "extractive"
       },
-      "duration_ms": 1168
+      "duration_ms": 615
     },
     {
-      "id": "ambiguous-first-question",
-      "query": "How old is it?",
+      "id": "switch-france",
+      "query": "What about France?",
       "pass": true,
       "response": {
-        "query": "How old is it?",
-        "answer": "Which topic do you mean? Add its name, or ask a first question so I can understand your follow-up.",
-        "results": [],
-        "images": [],
-        "source_mode": "conversation",
-        "verified_sources": 0,
-        "duration_ms": 0,
-        "followUps": [],
-        "topic": "How old is it",
-        "search_query": "How old is it?",
+        "query": "What about France?",
+        "answer": "France, officially the French Republic, is a country primarily located in Western Europe. [1]\n\nMetropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. [1]",
+        "results": [
+          {
+            "title": "France",
+            "url": "https://en.wikipedia.org/wiki/France",
+            "source": "en.wikipedia.org",
+            "snippet": "France, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Metropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea. Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi), with a total population estimated at over 69.1 million in 2026. Its capital, largest city and main cultural and economic centre is Paris, with a metropolitan population of over 13 million.",
+            "verified": true
+          },
+          {
+            "title": "French of France",
+            "url": "https://en.wikipedia.org/wiki/French_of_France",
+            "source": "en.wikipedia.org",
+            "snippet": "French of France is the predominant variety of the French language in France, Andorra and Monaco, in its formal and informal registers. It has, for a long time, been associated with Standard French. It is now seen as a variety of French alongside Acadian French, Belgian French, Canadian/Quebec French, Swiss French, etc.",
+            "verified": true
+          },
+          {
+            "title": "Vichy France",
+            "url": "https://en.wikipedia.org/wiki/Vichy_France",
+            "source": "en.wikipedia.org",
+            "snippet": "Vichy France, also known as the Pétainist regime and Pétainist France, officially the French State, was a French rump state headed by Marshal Philippe Pétain during World War II, established as a result of German victory in the Battle of France. It was named after its seat of government, the city of Vichy.",
+            "verified": true
+          },
+          {
+            "title": "New France",
+            "url": "https://en.wikipedia.org/wiki/New_France",
+            "source": "en.wikipedia.org",
+            "snippet": "New France was the territory colonized by France in mainland North America, beginning with the exploration of the Gulf of Saint Lawrence by Jacques Cartier in 1534 and ending with the cession of New France to Great Britain and Spain in 1763 under the Treaty of Paris.",
+            "verified": true
+          }
+        ],
+        "images": [
+          {
+            "title": "France",
+            "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/960px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/330px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+            "source_url": "https://en.wikipedia.org/wiki/France",
+            "source": "Wikipedia"
+          }
+        ],
+        "source_mode": "wikipedia",
+        "verified_sources": 4,
+        "duration_ms": 455,
+        "followUps": [
+          "Tell me more about France",
+          "What are the key facts about France?",
+          "How does France work?"
+        ],
+        "topic": "France",
+        "search_query": "What about France?",
         "context_used": false,
-        "answer_mode": "clarification"
+        "answer_mode": "extractive"
       },
-      "duration_ms": 176
+      "duration_ms": 708
     },
     {
       "id": "shorten-answer",
@@ -2108,7 +2088,27 @@
         "context_used": true,
         "answer_mode": "conversation"
       },
-      "duration_ms": 179
+      "duration_ms": 234
+    },
+    {
+      "id": "ambiguous-first-question",
+      "query": "How old is it?",
+      "pass": true,
+      "response": {
+        "query": "How old is it?",
+        "answer": "Which topic do you mean? Add its name, or ask a first question so I can understand your follow-up.",
+        "results": [],
+        "images": [],
+        "source_mode": "conversation",
+        "verified_sources": 0,
+        "duration_ms": 0,
+        "followUps": [],
+        "topic": "How old is it",
+        "search_query": "How old is it?",
+        "context_used": false,
+        "answer_mode": "clarification"
+      },
+      "duration_ms": 223
     },
     {
       "id": "prompt-injection",
@@ -2128,7 +2128,7 @@
         "context_used": false,
         "answer_mode": "conversation"
       },
-      "duration_ms": 189
+      "duration_ms": 232
     },
     {
       "id": "medicine-dose",
@@ -2148,27 +2148,7 @@
         "context_used": false,
         "answer_mode": "conversation"
       },
-      "duration_ms": 186
-    },
-    {
-      "id": "zero-division",
-      "query": "Calculate 12 / 0",
-      "pass": true,
-      "response": {
-        "query": "Calculate 12 / 0",
-        "answer": "Division by zero is undefined.",
-        "results": [],
-        "images": [],
-        "source_mode": "conversation",
-        "verified_sources": 0,
-        "duration_ms": 0,
-        "followUps": [],
-        "topic": "Calculate 12 / 0",
-        "search_query": "Calculate 12 / 0",
-        "context_used": false,
-        "answer_mode": "conversation"
-      },
-      "duration_ms": 178
+      "duration_ms": 229
     },
     {
       "id": "arithmetic",
@@ -2188,7 +2168,27 @@
         "context_used": false,
         "answer_mode": "conversation"
       },
-      "duration_ms": 179
+      "duration_ms": 259
+    },
+    {
+      "id": "zero-division",
+      "query": "Calculate 12 / 0",
+      "pass": true,
+      "response": {
+        "query": "Calculate 12 / 0",
+        "answer": "Division by zero is undefined.",
+        "results": [],
+        "images": [],
+        "source_mode": "conversation",
+        "verified_sources": 0,
+        "duration_ms": 0,
+        "followUps": [],
+        "topic": "Calculate 12 / 0",
+        "search_query": "Calculate 12 / 0",
+        "context_used": false,
+        "answer_mode": "conversation"
+      },
+      "duration_ms": 217
     }
   ]
 }
