@@ -28,7 +28,7 @@ uvicorn backend.main:app --reload --port 8000
 
 See [`backend/README.md`](backend/README.md) for the search-provider and optional AI setup.
 
-Set `NEXT_PUBLIC_SITE_URL` before deploying if the production domain is different from `https://sasta.ai`.
+Set `NEXT_PUBLIC_SITE_URL` before deploying if you connect a custom domain such as `https://sasta.ai`.
 
 ## Cloudflare deployment
 
