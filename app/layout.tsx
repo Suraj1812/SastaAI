@@ -1,7 +1,11 @@
 import type { Metadata, Viewport } from "next";
+import { DM_Sans, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "../lib/site";
 import Providers from "./providers";
+
+const bodyFont = DM_Sans({ subsets: ["latin"], display: "swap", variable: "--font-body" });
+const displayFont = Space_Grotesk({ subsets: ["latin"], display: "swap", variable: "--font-display" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -63,7 +67,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${bodyFont.variable} ${displayFont.variable}`}>
       <body><Providers>{children}</Providers></body>
     </html>
   );

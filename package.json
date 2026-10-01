@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
-    "test": "tsx --test tests/research.test.ts",
+    "test": "tsx --test tests/*.test.ts",
     "test:questions": "tsx scripts/evaluate-local.ts",
     "test:portable": "tsx scripts/evaluate-local.ts --portable",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
