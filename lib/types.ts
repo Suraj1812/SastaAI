@@ -23,4 +23,5 @@ export type SearchResponse = {
   verified_sources: number;
   duration_ms: number;
   warning?: string;
+  followUps?: string[];
 };
