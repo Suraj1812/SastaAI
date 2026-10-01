@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.open-next/
+.wrangler/
+out/
+*.log
+.DS_Store
+.env
+.env.local
+__pycache__/
+.venv/
+*.pyc
+*.tsbuildinfo

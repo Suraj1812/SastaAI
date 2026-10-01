@@ -1,0 +1,12 @@
+<svg width="1120" height="280" viewBox="0 0 1120 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purple" x1="30" y1="38" x2="242" y2="244" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D32FF"/>
+      <stop offset="1" stop-color="#4020D5"/>
+    </linearGradient>
+  </defs>
+  <path d="M24 89.5C24 83.1 27.3 77.2 32.8 73.9L144 7.2C155.1 0.6 168.9 0.6 180 7.2L291.2 73.9C298.5 78.2 298.5 88.8 291.2 93.1L180 159.8C168.9 166.4 155.1 166.4 144 159.8L32.8 93.1C27.3 89.8 24 95.9 24 89.5Z" fill="url(#purple)"/>
+  <path d="M24 154.8L61.3 132.6L144 182.2C155.2 188.9 169.1 188.9 180.3 182.2L291 115.6V176.6L180.3 243.2C169.1 249.9 155.2 249.9 144 243.2L61.3 193.6L24 215.8V154.8Z" fill="url(#purple)"/>
+  <path d="M24 241.5L61.3 219.3L144 268.9C155.2 275.6 169.1 275.6 180.3 268.9L291 202.3V263.3L180.3 329.9C169.1 336.6 155.2 336.6 144 329.9L61.3 280.3L24 302.5V241.5Z" fill="url(#purple)" transform="translate(0 -52)"/>
+  <text x="347" y="177" fill="#0D0D12" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="700" letter-spacing="-4">Sasta AI</text>
+</svg>
