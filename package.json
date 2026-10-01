@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
+    "test": "tsx --test tests/research.test.ts",
+    "test:questions": "tsx scripts/evaluate-local.ts",
+    "test:portable": "tsx scripts/evaluate-local.ts --portable",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
@@ -28,6 +31,7 @@
     "@types/node": "^22.15.30",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.2",
     "wrangler": "^4.145.0"
   }

@@ -4,7 +4,18 @@ export type SearchResult = {
   source: string;
   snippet: string;
   content?: string;
+  verified?: boolean;
 };
+
+export type ConversationContext = {
+  question: string;
+  answer: string;
+  topic?: string;
+  search_query?: string;
+  sources?: SearchResult[];
+};
+
+export type SearchRequest = { query: string; history: ConversationContext[] };
 
 export type ImageResult = {
   title: string;
@@ -19,9 +30,13 @@ export type SearchResponse = {
   answer: string;
   results: SearchResult[];
   images: ImageResult[];
-  source_mode: "serpapi" | "duckduckgo" | "wikipedia" | "demo";
+  source_mode: "serpapi" | "duckduckgo" | "wikipedia" | "demo" | "conversation";
   verified_sources: number;
   duration_ms: number;
   warning?: string;
   followUps?: string[];
+  topic?: string;
+  search_query?: string;
+  context_used?: boolean;
+  answer_mode?: "extractive" | "conversation" | "clarification" | "unavailable" | "ai";
 };

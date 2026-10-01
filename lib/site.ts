@@ -3,5 +3,5 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://sasta-ai.surajsinghrajput1812.workers.dev",
   tagline: "The internet, but without the tab hoarding.",
   description:
-    "Sasta AI finds the best information on the web, validates it, and turns it into one clear answer—with the sources to back it up.",
+    "Sasta AI is a source-linked research assistant. Ask questions, explore relevant images, and follow up in one conversation—with readable source evidence.",
 };
