@@ -11,7 +11,9 @@
 
 Deployment URL: https://sasta-ai.surajsinghrajput1812.workers.dev
 
-Cloudflare Worker version: `0fe41ce3-0ead-43be-aafe-1e21760ed3c6`.
+Final Cloudflare Worker version: `9a8dc1bc-47ed-4db8-b8ca-f15de335273a` (application commit `99f7cdc`). The 40-question live evaluations preceded the final cosmetic-only UI edits; the evaluated research API is unchanged.
+
+Browser verification covered mobile/desktop vertical welcome centering, inline welcome search, bottom-fixed conversation search, the Command-K shortcut, sequential follow-ups retaining older answers, uncropped source-linked images with blurred backdrops, and refresh clearing the conversation.
 
 Evaluations exercise 40 fixed questions across multi-turn topic continuity, topic changes, session memory, citations, image/source provenance, conservative unsupported requests and basic arithmetic. Evidence-marker checks are intentionally limited; passing is not proof of perfect factual accuracy, broad reasoning or current knowledge. Optional model-generated and paid Google-provider responses were not evaluated. No API keys were configured.
 
